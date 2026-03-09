@@ -1,13 +1,6 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+const menuBtn = document.querySelector(".menu-hamburguesa");
+const sideMenu = document.querySelector(".side-menu");
 
-anchor.addEventListener('click', function(e) {
+menuBtn.addEventListener("click", () => {
 
-e.preventDefault();
-
-document.querySelector(this.getAttribute('href')).scrollIntoView({
-behavior: "smooth"
-});
-
-});
-
-});
+sideMenu.classList.toggle("active");
