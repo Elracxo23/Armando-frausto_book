@@ -1,123 +1,111 @@
-body{
+/* RESET */
 
+*{
 margin:0;
-font-family:Arial;
-background:#111;
-color:white;
-
+padding:0;
+box-sizing:border-box;
 }
 
+
+/* HERO */
 
 .hero{
 
 height:100vh;
-position:relative;
-
-}
-
-.hero-bg{
-
-position:absolute;
 width:100%;
-height:100%;
-object-fit:cover;
 
-}
+background-image:url("../img/fondo.jpg");
+background-size:cover;
+background-position:center;
 
-
-.about-container{
+position:relative;
 
 display:flex;
 align-items:center;
 justify-content:center;
-gap:40px;
-padding:80px;
 
 }
 
 
-.about-photo img{
+/* MENU */
 
-width:300px;
-border-radius:50%;
+.menu-hamburguesa{
 
-}
+position:absolute;
 
+top:40px;
+left:40px;
 
-.menu-grid{
+width:45px;
 
-display:grid;
-grid-template-columns:repeat(5,1fr);
-gap:30px;
-padding:40px;
+z-index:3;
 
-}
-
-
-.menu-item{
-
-text-align:center;
-text-decoration:none;
-color:white;
+cursor:pointer;
 
 }
 
 
-.menu-item img{
+/* LOGO DETRAS */
 
-width:80px;
+.logo-racxo{
 
-}
+position:absolute;
 
+width:380px;
 
-.section{
+left:50%;
+top:50%;
 
-padding:120px 80px;
+transform:translate(-70%,-50%);
 
-}
-
-
-.project{
-
-display:flex;
-align-items:center;
-gap:40px;
-margin-bottom:80px;
-
-}
-
-.project img{
-
-width:400px;
+z-index:1;
 
 }
 
 
-/* MOBILE */
+/* TITULO */
+
+.titulo-portafolio{
+
+position:absolute;
+
+width:650px;
+
+left:50%;
+top:50%;
+
+transform:translate(-10%,-50%);
+
+z-index:2;
+
+}
+
+
+/* RESPONSIVE */
 
 @media (max-width:768px){
 
-.about-container{
+.logo-racxo{
 
-flex-direction:column;
+width:220px;
 
-}
-
-.menu-grid{
-
-grid-template-columns:repeat(2,1fr);
+transform:translate(-60%,-50%);
 
 }
 
-.project{
+.titulo-portafolio{
 
-flex-direction:column;
+width:340px;
+
+transform:translate(-5%,-50%);
 
 }
 
-.project img{
+.menu-hamburguesa{
 
-width:100%;
+top:20px;
+left:20px;
+width:35px;
 
 }
 
