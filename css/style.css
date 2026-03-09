@@ -16,21 +16,28 @@ overflow:hidden;
 }
 
 
-/* CONTENEDOR */
+/* CONTENEDOR CENTRAL */
 
 .hero-grid{
-display:grid;
-place-items:center;
+
 width:100%;
+max-width:1100px;
+
+display:flex;
+justify-content:center;
+
 }
 
 
-/* BLOQUE */
+/* BLOQUE LOGO + TITULO */
 
 .hero-content{
 
 display:flex;
 align-items:center;
+justify-content:center;
+
+gap:clamp(10px,3vw,40px);
 
 }
 
@@ -50,14 +57,30 @@ width:clamp(200px,28vw,380px);
 
 width:clamp(320px,45vw,650px);
 
-margin-left:-60px; /* hace que se monte sobre el logo */
+margin-left:-60px;
 
 }
-@media (max-width:768px){
+
+
+/* MENU */
+
+.menu-hamburguesa{
+
+position:absolute;
+
+top:20px;
+left:30px;
+
+width:40px;
+
+z-index:5;
+
+}@media (max-width:768px){
 
 .hero-content{
 
 flex-direction:column;
+text-align:center;
 
 }
 
@@ -66,13 +89,21 @@ flex-direction:column;
 margin-left:0;
 margin-top:-40px;
 
-width:300px;
+width:280px;
 
 }
 
 .logo-racxo{
 
 width:200px;
+
+}
+
+.menu-hamburguesa{
+
+left:20px;
+top:20px;
+width:32px;
 
 }
 
