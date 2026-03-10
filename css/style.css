@@ -427,9 +427,11 @@ padding:120px 20px 80px 20px;
 
 grid-template-columns:repeat(3,1fr);
 
-gap:30px;
+gap:55px;
 
-margin-top:-300px;
+margin-top:-440px;
+max-width: 285px;
+   
 
 }
 
@@ -440,7 +442,8 @@ margin-top:-300px;
 
 grid-column:1;
 justify-self:end;
-transform:translateX(36px);
+transform:translateX(47px);
+margin-top: -70px;
 
 }
 
@@ -448,7 +451,8 @@ transform:translateX(36px);
 
 grid-column:3;
 justify-self:start;
-transform:translateX(-36px);
+transform:translateX(-47px);
+margin-top: -70px;
 
 }
 
