@@ -1,4 +1,32 @@
 /* RESET */
+/* =========================
+   FUENTE PERSONALIZADA
+========================= */
+
+@font-face{
+
+font-family:"StingerFit";
+
+src:url("../fonts/StingerFitTrial-Heavy.ttf") format("truetype");
+
+font-weight:700;
+font-style:normal;
+
+}
+
+/* TITULOS DE PROYECTOS */
+
+.titulo-proyecto{
+
+font-family:"StingerFit", serif;
+
+font-size:64px;
+
+letter-spacing:2px;
+
+color:white;
+
+}
 
 *{
 margin:0;
@@ -571,6 +599,12 @@ max-width:320px;
 
 .branding-titulo{
 
-font-size:42px;
+font-family:"StingerFit", serif;
+
+font-size:64px;
+
+margin-bottom:20px;
+
+color:white;
 
 }
