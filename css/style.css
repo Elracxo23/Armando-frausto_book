@@ -221,17 +221,21 @@ width:280px;
 .quien-soy{
 
 width:100%;
-min-height:100vh;
 
 background-image:url("../img/fondo-presentacion.png");
 background-size:cover;
 background-position:center;
+background-repeat:no-repeat;
+background-attachment:scroll;
 
 display:flex;
 align-items:center;
 justify-content:center;
 
 padding:120px 40px;
+
+min-height:100vh;
+height:auto;
 
 }
 
@@ -256,9 +260,7 @@ gap:80px;
 /* TEXTO */
 
 .quien-texto{
-
 max-width:520px;
-
 }
 
 .quien-titulo{
