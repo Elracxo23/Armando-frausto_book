@@ -438,15 +438,17 @@ margin-top:-300px;
 
 .index-item:nth-child(4){
 
-grid-column:2;
-transform:translateX(-60px);
+grid-column:1;
+justify-self:end;
+transform:translateX(36px);
 
 }
 
 .index-item:nth-child(5){
 
-grid-column:2;
-transform:translateX(60px);
+grid-column:3;
+justify-self:start;
+transform:translateX(-36px);
 
 }
 
