@@ -78,7 +78,6 @@ z-index:90;
 
 }
 
-
 .side-menu ul{
 
 list-style:none;
@@ -87,13 +86,11 @@ padding:0 40px;
 
 }
 
-
 .side-menu li{
 
 margin-bottom:25px;
 
 }
-
 
 .side-menu a{
 
@@ -103,7 +100,6 @@ text-decoration:none;
 font-size:18px;
 
 }
-
 
 /* MENU ACTIVO */
 
@@ -142,6 +138,7 @@ align-items:center;
 justify-content:center;
 
 gap:0;
+
 }
 
 
@@ -166,7 +163,96 @@ margin-top:50px;
 }
 
 
-/* RESPONSIVE */
+
+/* =========================
+   SECCION QUIEN SOY
+========================= */
+
+.quien-soy{
+
+width:100%;
+
+background-image:url("../img/fondo-presentacion.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+padding:120px 40px;
+
+min-height:100vh;
+
+}
+
+
+/* CONTENEDOR GRID */
+
+.quien-container{
+
+max-width:1200px;
+width:100%;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+align-items:center;
+
+gap:80px;
+
+}
+
+
+/* TEXTO */
+
+.quien-texto{
+
+max-width:520px;
+
+}
+
+.quien-titulo{
+
+width:380px;
+margin-bottom:30px;
+
+}
+
+.quien-texto p{
+
+font-size:16px;
+line-height:1.7;
+margin-bottom:20px;
+
+}
+
+
+/* IMAGEN */
+
+.quien-imagen{
+
+display:flex;
+justify-content:center;
+
+}
+
+.quien-imagen img{
+
+width:420px;
+max-width:100%;
+
+}
+
+
+
+/* =========================
+   RESPONSIVE
+========================= */
 
 @media (max-width:768px){
 
@@ -216,95 +302,28 @@ width:280px;
 
 }
 
-/* SECCION QUIEN SOY */
 
-.quien-soy{
-
-width:100%;
-
-background-image:url("../img/fondo-presentacion.png");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-background-attachment:scroll;
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-padding:120px 40px;
-
-min-height:100vh;
-height:auto;
-
-}
-
-
-/* CONTENEDOR GRID */
-
-.quien-container{
-
-max-width:1200px;
-width:100%;
-
-margin:auto;
-
-display:grid;
-
-grid-template-columns: 1fr 1fr;
-
-align-items:center;
-
-gap:80px;
-
-}
-
-
-/* TEXTO */
-
-.quien-texto{
-max-width:520px;
-}
-
-.quien-titulo{
-
-width:380px;
-margin-bottom:30px;
-
-}
-
-.quien-texto p{
-
-font-size:16px;
-line-height:1.7;
-margin-bottom:20px;
-
-}
-
-
-/* IMAGEN */
-
-.quien-imagen{
-
-display:flex;
-justify-content:center;
-
-}
-
-.quien-imagen img{
-
-width:420px;
-max-width:100%;
-
-}
-@media (max-width:768px){
+/* QUIEN SOY MOBILE */
 
 .quien-container{
 
 grid-template-columns:1fr;
-text-align:center;
 
 gap:40px;
+
+text-align:center;
+
+}
+
+.quien-texto{
+
+order:1;
+
+}
+
+.quien-imagen{
+
+order:2;
 
 }
 
@@ -318,6 +337,9 @@ width:280px;
 
 width:260px;
 
+margin:auto;
+margin-bottom:20px;
+
 }
 
-
+}
