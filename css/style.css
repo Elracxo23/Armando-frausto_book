@@ -427,19 +427,20 @@ padding:120px 20px 80px 20px;
 
 grid-template-columns:repeat(3,1fr);
 
-gap:25px;
+gap:30px;
 
-margin-top:120px;
+margin-top:-300px;
 
 }
 
 
-/* PIRAMIDE INVERTIDA */
+/* ACERCAR ICONOS INFERIORES */
 
 .index-item:nth-child(4){
 
 grid-column:1;
 justify-self:end;
+transform:translateX(35px);
 
 }
 
@@ -447,6 +448,7 @@ justify-self:end;
 
 grid-column:3;
 justify-self:start;
+transform:translateX(-35px);
 
 }
 
