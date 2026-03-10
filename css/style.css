@@ -430,31 +430,44 @@ margin-bottom:20px;
 }
 
 
-/* =========================
-   INDEX MOBILE
-========================= */
+/* INDEX MOBILE */
 
 .index{
+
+background-image:url("../img/index_mobile.png");
 
 background-size:cover;
 background-position:center top;
 background-repeat:no-repeat;
 
-padding:200px 20px 120px 20px;
+padding:260px 20px 120px 20px;
+
+min-height:900px;
 
 }
 
 .index-container{
 
-grid-template-columns:repeat(3,1fr);
+grid-template-columns:repeat(2,1fr);
 
-gap:55px;
+gap:40px;
 
-margin-top:-300px;
-max-width:285px;
+max-width:320px;
+
+margin:auto;
 
 }
 
+.index-item{
+display:flex;
+justify-content:center;
+}
+
+.index-item img{
+
+width:120px;
+
+}
 
 /* ACERCAR ICONOS INFERIORES */
 
@@ -463,24 +476,15 @@ max-width:285px;
 grid-column:1;
 justify-self:end;
 transform:translateX(47px);
-margin-top: -70px;
+margin-top:-70px;
 
 }
 
 .index-item:nth-child(5){
 
-grid-column:3;
+grid-column:2;
 justify-self:start;
 transform:translateX(-47px);
-margin-top: -70px;
-
-}
-
-
-.index-item img{
-
-width:120px;
-
-}
+margin-top:-70px;
 
 }
