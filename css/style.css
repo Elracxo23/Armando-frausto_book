@@ -343,4 +343,88 @@ margin-bottom:20px;
 
 }
 
+/* INDEX MOBILE */
+
+.index{
+
+background-position:top center;
+
+padding:180px 20px 80px 20px;
+
+}
+
+.index-container{
+
+grid-template-columns:repeat(2,1fr);
+
+gap:30px;
+
+}
+
+.index-item img{
+
+width:120px;
+
+}
+
+/* =========================
+   SECCION INDEX
+========================= */
+
+.index{
+
+width:100%;
+min-height:100vh;
+
+background-image:url("../img/fondoindex.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+padding:220px 40px 120px 40px;
+
+}
+
+
+/* GRID ICONOS */
+
+.index-container{
+
+max-width:1200px;
+width:100%;
+
+display:grid;
+
+grid-template-columns:repeat(5,1fr);
+
+align-items:center;
+justify-items:center;
+
+gap:40px;
+
+}
+
+
+/* ICONOS */
+
+.index-item img{
+
+width:160px;
+max-width:100%;
+
+transition:transform .25s ease;
+
+}
+
+
+/* HOVER */
+
+.index-item:hover img{
+
+transform:scale(1.08);
+
 }
