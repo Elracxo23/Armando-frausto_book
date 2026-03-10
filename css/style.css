@@ -436,6 +436,8 @@ margin-bottom:20px;
 
 .index{
 
+min-height:auto;
+
 background-size:contain;
 background-position:top center;
 background-repeat:no-repeat;
