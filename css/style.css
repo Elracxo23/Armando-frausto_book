@@ -448,6 +448,8 @@ min-height:900px;
 
 .index-container{
 
+display:grid;
+
 grid-template-columns:repeat(2,1fr);
 
 gap:40px;
@@ -456,35 +458,28 @@ max-width:320px;
 
 margin:auto;
 
-}
-
-.index-item{
-display:flex;
-justify-content:center;
-}
-
-.index-item img{
-
-width:120px;
+justify-items:center;
 
 }
 
-/* ACERCAR ICONOS INFERIORES */
+/* ORDEN DE ICONOS */
+
+.index-item:nth-child(3){
+
+grid-column:1 / span 2;
+
+justify-self:center;
+
+}
 
 .index-item:nth-child(4){
 
 grid-column:1;
-justify-self:end;
-transform:translateX(47px);
-margin-top:-70px;
 
 }
 
 .index-item:nth-child(5){
 
 grid-column:2;
-justify-self:start;
-transform:translateX(-47px);
-margin-top:-70px;
 
 }
