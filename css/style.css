@@ -247,8 +247,11 @@ height:auto;
 max-width:1200px;
 width:100%;
 
+margin:auto;
+
 display:grid;
-grid-template-columns:1fr 1fr;
+
+grid-template-columns: 1fr 1fr;
 
 align-items:center;
 
@@ -281,9 +284,16 @@ margin-bottom:20px;
 
 /* IMAGEN */
 
+.quien-imagen{
+
+display:flex;
+justify-content:center;
+
+}
+
 .quien-imagen img{
 
-width:450px;
+width:420px;
 max-width:100%;
 
 }
