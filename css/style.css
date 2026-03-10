@@ -289,7 +289,6 @@ align-items:center;
 justify-items:center;
 
 gap:40px;
-
 margin-top:80px;
 
 }
@@ -410,7 +409,9 @@ margin-bottom:20px;
 }
 
 
-/* INDEX MOBILE */
+/* =========================
+   INDEX MOBILE
+========================= */
 
 .index{
 
@@ -424,13 +425,31 @@ padding:120px 20px 80px 20px;
 
 .index-container{
 
-grid-template-columns:repeat(2,1fr);
+grid-template-columns:repeat(3,1fr);
 
-gap:30px;
+gap:25px;
 
-margin-top:260px;
+margin-top:120px;
 
 }
+
+
+/* PIRAMIDE INVERTIDA */
+
+.index-item:nth-child(4){
+
+grid-column:1;
+justify-self:end;
+
+}
+
+.index-item:nth-child(5){
+
+grid-column:3;
+justify-self:start;
+
+}
+
 
 .index-item img{
 
