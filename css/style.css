@@ -436,13 +436,11 @@ margin-bottom:20px;
 
 .index{
 
-min-height:auto;
-
-background-size:contain;
-background-position:top center;
+background-size:cover;
+background-position:center top;
 background-repeat:no-repeat;
 
-padding:120px 20px 80px 20px;
+padding:200px 20px 120px 20px;
 
 }
 
@@ -452,9 +450,8 @@ grid-template-columns:repeat(3,1fr);
 
 gap:55px;
 
-margin-top:-440px;
-max-width: 285px;
-   
+margin-top:-300px;
+max-width:285px;
 
 }
 
