@@ -355,7 +355,7 @@ grid-template-columns:1.2fr 1fr;
 
 align-items:center;
 
-gap:80px;
+gap:10px;
 
 }
 
@@ -387,7 +387,7 @@ margin-left:25px;
 position:absolute;
 
 top:-80px;
-left:250px;
+left:350px;
 
 width:220px;
 
@@ -571,7 +571,7 @@ align-items:center;
 width:110px;
 
 top:-20px;
-left:120px;
+left:215px;
 
 }
 
