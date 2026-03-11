@@ -403,11 +403,19 @@ gap:80px;
 
 /* IMAGEN */
 
+.branding-imagen{
+
+position:relative;
+display:flex;
+justify-content:center;
+
+}
+
 .branding-imagen img{
 
 width:110%;
 max-width:550px;
-margin-left: 25px;
+margin-left:25px;
 
 }
 
@@ -618,5 +626,42 @@ font-size:64px;
 margin-bottom:20px;
 
 color:white;
+
+}
+
+/* LOGO WAZA FLOTANTE */
+
+.branding-logo{
+
+position:absolute;
+
+top:-60px;
+left:55%;
+
+width:140px;
+
+transform:translateX(-50%);
+
+z-index:5;
+
+animation:flotarLogo 8s ease-in-out infinite;
+
+}
+
+/* ANIMACION */
+
+@keyframes flotarLogo{
+
+0%{
+transform:translate(-50%,0px) rotate(0deg);
+}
+
+50%{
+transform:translate(-50%,-12px) rotate(4deg);
+}
+
+100%{
+transform:translate(-50%,0px) rotate(0deg);
+}
 
 }
