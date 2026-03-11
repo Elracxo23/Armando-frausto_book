@@ -450,8 +450,8 @@ color:black;
 
 .fravaz .branding-logo{
 
-top:-40px;
-left:380px;
+top:170px;
+left:520px;
 
 }
 
@@ -614,5 +614,15 @@ color:white;
 color:white;
 }
 
+
+}
+
+/* POSICION LOGO FRAVAZ MOBILE */
+
+.fravaz .branding-logo{
+
+top:-10px;
+left:210px;
+width:110px;
 
 }
