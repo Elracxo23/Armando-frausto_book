@@ -455,6 +455,12 @@ left:380px;
 
 }
 
+/* TITULO FRAVAZ */
+
+.fravaz .titulo-proyecto{
+color:black;
+}
+
 /* =========================
    RESPONSIVE
 ========================= */
@@ -596,6 +602,16 @@ width:110px;
 top:-20px;
 left:215px;
 
+}
+
+/* FRAVAZ MOBILE */
+
+.fravaz .titulo-proyecto{
+color:white;
+}
+
+.fravaz .branding-texto{
+color:white;
 }
 
 
