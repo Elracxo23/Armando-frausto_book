@@ -462,6 +462,34 @@ color:black;
 }
 
 /* =========================
+   SUMMIT
+========================= */
+
+.summit{
+
+background-image:url("../img/fondosummit.png");
+
+}
+
+.summit .titulo-proyecto{
+color:white;
+}
+
+.summit .branding-texto{
+color:white;
+}
+
+/* POSICION LOGO SUMMIT DESKTOP */
+
+.summit .branding-logo{
+
+top:-40px;
+left:380px;
+width:220px;
+
+}
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -620,6 +648,26 @@ color:white;
 
 top:95px;
 left:240px;
+width:110px;
+
+}
+
+/* SUMMIT MOBILE */
+
+.summit .titulo-proyecto{
+color:white;
+}
+
+.summit .branding-texto{
+color:white;
+}
+
+/* POSICION LOGO SUMMIT MOBILE */
+
+.summit .branding-logo{
+
+top:-10px;
+left:210px;
 width:110px;
 
 }
