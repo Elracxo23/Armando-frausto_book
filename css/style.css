@@ -382,16 +382,16 @@ margin-left:25px;
 
 position:absolute;
 
-top:-60px;
+top:-80px;
 left:55%;
 
-width:140px;
+width:220px;
 
 transform:translateX(-50%);
 
 z-index:5;
 
-animation:flotarLogo 8s ease-in-out infinite;
+animation:flotarLogo 6s ease-in-out infinite;
 
 }
 
@@ -400,19 +400,26 @@ animation:flotarLogo 8s ease-in-out infinite;
 @keyframes flotarLogo{
 
 0%{
-transform:translate(-50%,0px) rotate(0deg);
+transform:translate(-50%,0px) rotate(-6deg);
+}
+
+25%{
+transform:translate(-50%,-14px) rotate(4deg);
 }
 
 50%{
-transform:translate(-50%,-12px) rotate(4deg);
+transform:translate(-50%,-22px) rotate(8deg);
+}
+
+75%{
+transform:translate(-50%,-14px) rotate(4deg);
 }
 
 100%{
-transform:translate(-50%,0px) rotate(0deg);
+transform:translate(-50%,0px) rotate(-6deg);
 }
 
 }
-
 /* TEXTO */
 
 .branding-texto{
