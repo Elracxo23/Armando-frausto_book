@@ -522,6 +522,91 @@ width:220px;
 }
 
 /* =========================
+   SECCION UX UI
+========================= */
+
+.uxui{
+
+position:relative;
+
+width:100%;
+min-height:100vh;
+
+background-image:url("../img/fondo_ux1.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+padding:120px 40px;
+
+}
+
+/* GRID */
+
+.ux-container{
+
+max-width:1200px;
+width:100%;
+
+display:grid;
+grid-template-columns:1fr 1fr;
+
+align-items:center;
+
+gap:20px;
+
+}
+
+/* TEXTO */
+
+.ux-texto{
+display:flex;
+justify-content:center;
+}
+
+.ux-cuadro{
+
+width:420px;
+max-width:100%;
+
+}
+
+/* IMAGEN */
+
+.ux-imagen{
+
+display:flex;
+justify-content:center;
+
+}
+
+.ux-material{
+
+width:420px;
+max-width:100%;
+
+}
+
+/* ICONO UX */
+
+.icono-ux{
+
+position:absolute;
+
+top:60px;
+right:60px;
+
+width:90px;
+
+z-index:5;
+
+}
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -729,6 +814,37 @@ top:40px;
 right:25px;
 
 width:67px;
+
+}
+
+/* UX UI MOBILE */
+
+.ux-container{
+
+grid-template-columns:1fr;
+
+gap:40px;
+
+}
+
+.icono-ux{
+
+top:40px;
+right:25px;
+
+width:55px;
+
+}
+
+.ux-material{
+
+width:280px;
+
+}
+
+.ux-cuadro{
+
+width:280px;
 
 }
 
