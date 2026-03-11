@@ -364,6 +364,7 @@ position:relative;
 display:flex;
 justify-content:center;
 
+
 }
 
 /* IMAGEN PRINCIPAL */
@@ -383,7 +384,7 @@ margin-left:25px;
 position:absolute;
 
 top:-80px;
-left:50%;
+left:75%;
 
 width:220px;
 
@@ -554,12 +555,15 @@ gap:40px;
 
 .branding-material{
 max-width:320px;
+margin-left:-180px
 }
 
 .branding-logo{
 
 width:110px;
 top:-40px;
+margin-left:-29px;
+margin-top:10px
 
 }
 
