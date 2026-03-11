@@ -1,4 +1,7 @@
 /* RESET */
+html, body{
+overflow-x:hidden;
+}
 /* =========================
    FUENTE PERSONALIZADA
 ========================= */
@@ -382,14 +385,11 @@ margin-left:25px;
 .branding-logo{
 
 position:absolute;
+
 top:-80px;
-left:50%;
+left:250px;
 
 width:220px;
-
-transform:translateX(-50%);
-
-z-index:5;
 
 animation:rotarLogo 18s linear infinite;
 
@@ -569,10 +569,11 @@ align-items:center;
 .branding-logo{
 
 width:110px;
-top:-40px;
-margin-left:-29px;
-margin-top:10px
+
+top:-20px;
+left:120px;
 
 }
+
 
 }
