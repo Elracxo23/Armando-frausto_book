@@ -437,8 +437,21 @@ max-width:420px;
 ========================= */
 
 .fravaz{
-
 background-image:url("../img/fondofravaz.png");
+}
+
+/* TEXTO */
+
+.fravaz .branding-texto{
+color:black;
+}
+
+/* POSICION LOGO */
+
+.fravaz .branding-logo{
+
+top:-40px;
+left:380px;
 
 }
 
