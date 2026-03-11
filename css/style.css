@@ -393,6 +393,7 @@ transform:translateX(-50%);
 z-index:5;
 
 animation:rotarLogo 18s linear infinite;
+margin-left: 130px;
 
 }
 
