@@ -327,8 +327,24 @@ display:block;
    SECCION BRANDING
 ========================= */
 
-.branding{
+/* ICONO BRANDING */
 
+.icono-branding{
+
+position:absolute;
+
+top:60px;
+right:60px;
+
+width:90px;
+
+z-index:5;
+
+}
+
+.branding{
+   
+position:relative;
 width:100%;
 min-height:100vh;
 
@@ -702,6 +718,17 @@ align-items:center;
 top:40px;
 left:120px;
 width:110px;
+
+}
+
+/* ICONO BRANDING MOBILE */
+
+.icono-branding{
+
+top:40px;
+right:25px;
+
+width:55px;
 
 }
 
