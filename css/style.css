@@ -382,7 +382,6 @@ margin-left:25px;
 .branding-logo{
 
 position:absolute;
-
 top:-80px;
 left:50%;
 
@@ -393,7 +392,6 @@ transform:translateX(-50%);
 z-index:5;
 
 animation:rotarLogo 18s linear infinite;
-margin-left: 130px;
 
 }
 
@@ -555,8 +553,17 @@ gap:40px;
 }
 
 .branding-material{
+
 max-width:320px;
-margin-left:-180px
+margin-left:0;
+
+}
+
+.branding-imagen{
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
 .branding-logo{
