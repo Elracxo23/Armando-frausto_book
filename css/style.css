@@ -471,33 +471,15 @@ background-image:url("../img/fondosummit.png");
 
 }
 
+/* TEXTO */
+
 .summit .titulo-proyecto{
 color:white;
 }
 
 .summit .branding-texto{
+
 color:white;
-}
-
-/* POSICION LOGO SUMMIT DESKTOP */
-
-.summit .branding-logo{
-
-top:-40px;
-left:380px;
-width:220px;
-
-}
-
-/* LAYOUT SUMMIT */
-
-.summit .branding-container{
-
-grid-template-columns:1fr 1.2fr;
-
-}
-
-.summit .branding-texto{
 
 order:1;
 align-items:flex-start;
@@ -505,9 +487,21 @@ text-align:left;
 
 }
 
+/* IMAGEN DERECHA */
+
 .summit .branding-imagen{
 
 order:2;
+
+}
+
+/* POSICION LOGO DESKTOP */
+
+.summit .branding-logo{
+
+top:-60px;
+left:420px;
+width:220px;
 
 }
 
@@ -674,22 +668,41 @@ width:110px;
 
 }
 
-/* SUMMIT MOBILE */
+/* =========================
+   SUMMIT MOBILE
+========================= */
 
-.summit .titulo-proyecto{
-color:white;
+.summit .branding-container{
+
+grid-template-columns:1fr;
+
+}
+
+.summit .branding-imagen{
+
+order:1;
+
 }
 
 .summit .branding-texto{
+
+order:2;
+
 color:white;
+
+text-align:center;
+align-items:center;
+
 }
 
-/* POSICION LOGO SUMMIT MOBILE */
+/* LOGO SUMMIT MOBILE */
 
 .summit .branding-logo{
 
-top:-10px;
+top:-20px;
 left:210px;
 width:110px;
+
+}
 
 }
