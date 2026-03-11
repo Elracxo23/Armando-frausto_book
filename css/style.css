@@ -622,6 +622,53 @@ z-index:5;
 }
 
 /* =========================
+   UX UI SUPER COMICS
+========================= */
+
+.ux-supercomics{
+
+background-image:url("../img/fondoux2.png");
+
+}
+
+.ux-supercomics .ux-texto{
+
+align-items:flex-start;
+text-align:left;
+
+}
+
+.ux-supercomics .ux-material{
+
+width:520px;
+
+}
+
+/* =========================
+   UX UI CANCELACION
+========================= */
+
+.ux-cancelacion{
+
+background-image:url("../img/fondo_ux3.png");
+
+}
+
+.ux-cancelacion .ux-material{
+
+width:480px;
+max-width:100%;
+
+}
+
+.ux-cancelacion .ux-texto{
+
+align-items:center;
+text-align:center;
+
+}
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -878,5 +925,44 @@ margin:30px auto;
 
 width:370px;
 margin-top: -50px;
+
+}
+
+/* UX SUPER COMICS MOBILE */
+
+.ux-supercomics .ux-container{
+
+grid-template-columns:1fr;
+gap:40px;
+
+}
+
+.ux-supercomics .ux-material{
+
+width:280px;
+margin:auto;
+
+}
+
+.ux-supercomics .ux-texto{
+
+text-align:center;
+align-items:center;
+
+}
+
+/* UX CANCELACION MOBILE */
+
+.ux-cancelacion .ux-container{
+
+grid-template-columns:1fr;
+gap:40px;
+
+}
+
+.ux-cancelacion .ux-material{
+
+width:280px;
+margin:auto;
 
 }
