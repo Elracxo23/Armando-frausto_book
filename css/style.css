@@ -540,11 +540,6 @@ position:relative;
 width:100%;
 min-height:100vh;
 
-background-image:url("../img/fondo_ux1.png");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-
 display:flex;
 align-items:center;
 justify-content:center;
@@ -628,6 +623,9 @@ z-index:5;
 .ux-starberm{
 
 background-image:url("../img/fondo_ux1.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 
 }
 
