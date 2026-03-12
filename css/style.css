@@ -454,6 +454,50 @@ left:380px;
 }
 
 /* =========================
+   SUMMIT
+========================= */
+
+.summit{
+
+background-image:url("../img/fondosummit.png");
+
+}
+
+/* TEXTO */
+
+.summit .titulo-proyecto{
+color:white;
+}
+
+.summit .branding-texto{
+
+color:white;
+
+order:1;
+align-items:flex-start;
+text-align:left;
+
+}
+
+/* IMAGEN DERECHA */
+
+.summit .branding-imagen{
+
+order:2;
+
+}
+
+/* POSICION LOGO DESKTOP */
+
+.summit .branding-logo{
+
+top:-60px;
+left:420px;
+width:220px;
+
+}
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -611,6 +655,43 @@ color:white;
 .fravaz .branding-logo{
 
 top:-10px;
+left:210px;
+width:110px;
+
+}
+
+/* =========================
+   SUMMIT MOBILE
+========================= */
+
+.summit .branding-container{
+
+grid-template-columns:1fr;
+
+}
+
+.summit .branding-imagen{
+
+order:1;
+
+}
+
+.summit .branding-texto{
+
+order:2;
+
+color:white;
+
+text-align:center;
+align-items:center;
+
+}
+
+/* LOGO SUMMIT MOBILE */
+
+.summit .branding-logo{
+
+top:-20px;
 left:210px;
 width:110px;
 
