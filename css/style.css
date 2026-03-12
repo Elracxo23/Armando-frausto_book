@@ -1,5 +1,5 @@
 /* RESET */
-body{
+html, body{
 overflow-x:hidden;
 }
 
@@ -534,13 +534,13 @@ text-align:center;
 position:relative;
 
 width:100%;
-min-height:auto;
+min-height:100vh;
 
 display:flex;
 align-items:center;
 justify-content:center;
 
-padding:160px 40px 120px 40px;
+padding:120px 40px;
 
 background-size:cover;
 background-position:center;
@@ -559,9 +559,13 @@ background-image:url("../img/fondovideo1.png");
 /* CONTENEDOR */
 
 .motion-container{
+
+max-width:1200px;
+width:100%;
+
 display:flex;
 justify-content:center;
-align-items:center;
+
 }
 
 /* VIDEO */
@@ -570,15 +574,18 @@ align-items:center;
 
 width:720px;
 max-width:100%;
-height:auto;
 
 border-radius:20px;
 
-display:block;
+/* AJUSTE PARA CAER EN LA TARJETA DEL FONDO */
 
-margin-top:60px;
+position:relative;
+
+top:40px;
+left:0px;
 
 }
+
 /* TEXTO PNG */
 
 .motion-texto{
@@ -653,25 +660,21 @@ width:280px;
 margin:auto;
 }
 
-/* MOTION MOBILE */
-
 .motion-video{
 
-width:300px;
-max-width:100%;
+width:320px;
 
-position:static;
-
-margin-top:40px;
+top:0;
+left:0;
 
 }
 
 .motion-texto{
 
-width:200px;
-
-top:120px;
+top:110px;
 right:30px;
+
+width:200px;
 
 }
 
@@ -683,4 +686,5 @@ left:25px;
 width:65px;
 
 }
+
 }
