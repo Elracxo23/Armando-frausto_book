@@ -432,6 +432,27 @@ max-width:420px;
 
 }
 
+/* FRAVAZ */
+
+.fravaz{
+background-image:url("../img/fondofravaz.png");
+}
+
+.fravaz .titulo-proyecto{
+color:black;
+}
+
+.fravaz .branding-texto{
+color:black;
+}
+
+.fravaz .branding-logo{
+
+top:-40px;
+left:380px;
+
+}
+
 /* =========================
    RESPONSIVE
 ========================= */
@@ -575,5 +596,24 @@ left:215px;
 
 }
 
+/* TEXTO FRAVAZ MOBILE */
+
+.fravaz .titulo-proyecto{
+color:white;
+}
+
+.fravaz .branding-texto{
+color:white;
+}
+
+/* LOGO FRAVAZ MOBILE */
+
+.fravaz .branding-logo{
+
+top:-10px;
+left:210px;
+width:110px;
+
+}
 
 }
