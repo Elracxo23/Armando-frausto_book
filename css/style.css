@@ -534,13 +534,13 @@ text-align:center;
 position:relative;
 
 width:100%;
-min-height:100vh;
+min-height:auto;
 
 display:flex;
 align-items:center;
 justify-content:center;
 
-padding:120px 40px;
+padding:160px 40px 120px 40px;
 
 background-size:cover;
 background-position:center;
@@ -576,7 +576,7 @@ border-radius:20px;
 
 display:block;
 
-margin-top:150px;
+margin-top:60px;
 
 }
 /* TEXTO PNG */
