@@ -1,6 +1,4 @@
-/* =========================
-RESET
-========================= */
+/* RESET */
 
 html, body{
 overflow-x:hidden;
@@ -18,33 +16,35 @@ font-family:Arial, Helvetica, sans-serif;
 
 
 /* =========================
-FUENTE PERSONALIZADA
+   FUENTE PERSONALIZADA
 ========================= */
 
 @font-face{
+
 font-family:"StingerFit";
 src:url("../fonts/StingerFitTrial-Heavy.ttf") format("truetype");
 font-weight:700;
 font-style:normal;
+
 }
 
 
-/* =========================
-TITULOS DE PROYECTOS
-========================= */
+/* TITULOS DE PROYECTOS */
 
 .titulo-proyecto{
+
 font-family:"StingerFit", serif;
 font-size:64px;
 letter-spacing:2px;
 color:white;
 text-align:center;
 margin-bottom:20px;
+
 }
 
 
 /* =========================
-HEADER
+   HEADER
 ========================= */
 
 .top-header{
@@ -81,7 +81,7 @@ width:65px;
 
 
 /* =========================
-MENU LATERAL
+   MENU LATERAL
 ========================= */
 
 .side-menu{
@@ -124,7 +124,7 @@ left:0;
 
 
 /* =========================
-HERO
+   HERO
 ========================= */
 
 .hero{
@@ -144,10 +144,13 @@ padding-top:110px;
 }
 
 .hero-content{
+
 display:flex;
 align-items:center;
 justify-content:center;
+
 gap:0;
+
 }
 
 .logo-racxo{
@@ -165,7 +168,7 @@ margin-top:50px;
 
 
 /* =========================
-SECCION QUIEN SOY
+   QUIEN SOY
 ========================= */
 
 .quien-soy{
@@ -233,7 +236,7 @@ max-width:100%;
 
 
 /* =========================
-SECCION INDEX
+   INDEX
 ========================= */
 
 .index{
@@ -285,7 +288,7 @@ transform:scale(1.08);
 
 
 /* =========================
-SECCION EXPERIENCIA
+   EXPERIENCIA
 ========================= */
 
 .experiencia{
@@ -308,7 +311,7 @@ display:block;
 
 
 /* =========================
-SECCION BRANDING
+   BRANDING BASE
 ========================= */
 
 .branding{
@@ -318,7 +321,6 @@ position:relative;
 width:100%;
 min-height:100vh;
 
-background-image:url("../img/wazafondo.png");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
@@ -328,19 +330,6 @@ align-items:center;
 justify-content:center;
 
 padding:120px 40px;
-
-}
-
-.icono-branding{
-
-position:absolute;
-
-top:60px;
-right:60px;
-
-width:90px;
-
-z-index:5;
 
 }
 
@@ -378,9 +367,6 @@ margin-left:25px;
 
 position:absolute;
 
-top:-80px;
-left:455px;
-
 width:220px;
 
 animation:rotarLogo 18s linear infinite;
@@ -389,13 +375,8 @@ animation:rotarLogo 18s linear infinite;
 
 @keyframes rotarLogo{
 
-0%{
-transform:translateX(-50%) rotate(0deg);
-}
-
-100%{
-transform:translateX(-50%) rotate(360deg);
-}
+0%{ transform:translateX(-50%) rotate(0deg); }
+100%{ transform:translateX(-50%) rotate(360deg); }
 
 }
 
@@ -422,7 +403,23 @@ max-width:420px;
 
 
 /* =========================
-FRAVAZ
+   WAZA
+========================= */
+
+.branding{
+background-image:url("../img/wazafondo.png");
+}
+
+.branding-logo{
+
+top:-80px;
+left:455px;
+
+}
+
+
+/* =========================
+   FRAVAZ
 ========================= */
 
 .fravaz{
@@ -446,20 +443,14 @@ left:520px;
 
 
 /* =========================
-SUMMIT
+   SUMMIT
 ========================= */
 
 .summit{
 background-image:url("../img/fondosummit.png");
 }
 
-.summit .titulo-proyecto{
-color:white;
-}
-
 .summit .branding-texto{
-
-color:white;
 
 order:1;
 align-items:flex-start;
@@ -476,6 +467,218 @@ order:2;
 top:30px;
 left:200px;
 
-width:220px;
+}
+
+
+/* =========================
+   UX UI BASE
+========================= */
+
+.uxui{
+
+position:relative;
+
+width:100%;
+min-height:100vh;
+
+background-image:url("../img/fondo_ux1.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+padding:120px 40px;
+
+}
+
+.ux-container{
+
+max-width:1200px;
+width:100%;
+
+display:grid;
+grid-template-columns:1fr 1fr;
+
+align-items:center;
+
+gap:40px;
+
+}
+
+.ux-texto{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+
+}
+
+.ux-cuadro{
+
+width:200px;
+margin-top:40px;
+
+}
+
+.ux-imagen{
+display:flex;
+justify-content:center;
+}
+
+.ux-material{
+
+width:520px;
+max-width:100%;
+
+}
+
+.icono-ux{
+
+position:absolute;
+top:20px;
+right:60px;
+
+width:90px;
+
+}
+
+
+/* =========================
+   UX STARBERM
+========================= */
+
+.ux-starberm{
+background-image:url("../img/fondo_ux1.png");
+}
+
+.ux-starberm .ux-material{
+
+width:650px;
+
+position:relative;
+
+top:40px;
+left:80px;
+
+}
+
+
+/* =========================
+   UX SUPER COMICS
+========================= */
+
+.ux-supercomics{
+background-image:url("../img/fondoux2.png");
+}
+
+.ux-supercomics .ux-material{
+width:520px;
+}
+
+
+/* =========================
+   UX CANCELACION
+========================= */
+
+.ux-cancelacion{
+background-image:url("../img/fondo_ux3.png");
+}
+
+.ux-cancelacion .ux-material{
+width:480px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+.hero{
+padding-top:90px;
+}
+
+.hero-content{
+flex-direction:column;
+}
+
+.logo-racxo{
+width:200px;
+}
+
+.titulo-portafolio{
+
+margin-left:0;
+margin-top:-40px;
+width:280px;
+
+}
+
+
+/* QUIEN SOY */
+
+.quien-container{
+grid-template-columns:1fr;
+gap:40px;
+}
+
+.quien-imagen img{
+width:280px;
+}
+
+
+/* INDEX */
+
+.index{
+
+background-image:url("../img/index_mobile.png");
+background-size:cover;
+background-position:center top;
+
+padding:260px 20px 120px 20px;
+
+}
+
+.index-container{
+
+grid-template-columns:repeat(2,1fr);
+
+max-width:320px;
+
+margin:auto;
+margin-top:100px;
+
+}
+
+
+/* UX */
+
+.ux-container{
+grid-template-columns:1fr;
+gap:40px;
+}
+
+.ux-material{
+width:370px;
+}
+
+
+/* STARBERM */
+
+.ux-starberm .ux-material{
+
+width:300px;
+
+top:20px;
+left:0;
+
+margin:auto;
+
+}
 
 }
