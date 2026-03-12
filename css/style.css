@@ -326,6 +326,20 @@ display:block;
 /* =========================
    SECCION BRANDING
 ========================= */
+/* ICONO BRANDING */
+
+.icono-branding{
+
+position:absolute;
+
+top:60px;
+right:60px;
+
+width:90px;
+
+z-index:5;
+
+}
 
 .branding{
 
