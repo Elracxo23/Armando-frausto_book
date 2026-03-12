@@ -1,31 +1,9 @@
-/* RESET */
-html, body{
-overflow-x:hidden;
-}
 /* =========================
-   FUENTE PERSONALIZADA
+RESET
 ========================= */
 
-@font-face{
-
-font-family:"StingerFit";
-src:url("../fonts/StingerFitTrial-Heavy.ttf") format("truetype");
-font-weight:700;
-font-style:normal;
-
-}
-
-/* TITULOS DE PROYECTOS */
-
-.titulo-proyecto{
-
-font-family:"StingerFit", serif;
-font-size:64px;
-letter-spacing:2px;
-color:white;
-text-align:center;
-margin-bottom:20px;
-
+html, body{
+overflow-x:hidden;
 }
 
 *{
@@ -38,7 +16,36 @@ body{
 font-family:Arial, Helvetica, sans-serif;
 }
 
-/* HEADER */
+
+/* =========================
+FUENTE PERSONALIZADA
+========================= */
+
+@font-face{
+font-family:"StingerFit";
+src:url("../fonts/StingerFitTrial-Heavy.ttf") format("truetype");
+font-weight:700;
+font-style:normal;
+}
+
+
+/* =========================
+TITULOS DE PROYECTOS
+========================= */
+
+.titulo-proyecto{
+font-family:"StingerFit", serif;
+font-size:64px;
+letter-spacing:2px;
+color:white;
+text-align:center;
+margin-bottom:20px;
+}
+
+
+/* =========================
+HEADER
+========================= */
 
 .top-header{
 
@@ -63,24 +70,19 @@ z-index:100;
 
 }
 
-/* MENU */
-
 .menu-hamburguesa{
-
 width:45px;
 cursor:pointer;
-
 }
-
-/* LOGO HEADER */
 
 .logo-header{
-
 width:65px;
-
 }
 
-/* MENU LATERAL */
+
+/* =========================
+MENU LATERAL
+========================= */
 
 .side-menu{
 
@@ -116,13 +118,14 @@ text-decoration:none;
 font-size:18px;
 }
 
-/* MENU ACTIVO */
-
 .side-menu.active{
 left:0;
 }
 
-/* HERO */
+
+/* =========================
+HERO
+========================= */
 
 .hero{
 
@@ -140,25 +143,16 @@ padding-top:110px;
 
 }
 
-/* CONTENIDO HERO */
-
 .hero-content{
-
 display:flex;
 align-items:center;
 justify-content:center;
-
 gap:0;
-
 }
-
-/* LOGO GRANDE */
 
 .logo-racxo{
 width:clamp(200px,28vw,380px);
 }
-
-/* TITULO */
 
 .titulo-portafolio{
 
@@ -169,8 +163,9 @@ margin-top:50px;
 
 }
 
+
 /* =========================
-   SECCION QUIEN SOY
+SECCION QUIEN SOY
 ========================= */
 
 .quien-soy{
@@ -193,8 +188,6 @@ text-align:center;
 
 }
 
-/* CONTENEDOR GRID */
-
 .quien-container{
 
 max-width:1200px;
@@ -203,7 +196,6 @@ width:100%;
 margin:auto;
 
 display:grid;
-
 grid-template-columns:1fr 1fr;
 
 align-items:center;
@@ -211,8 +203,6 @@ align-items:center;
 gap:10px;
 
 }
-
-/* TEXTO */
 
 .quien-texto{
 max-width:520px;
@@ -231,8 +221,6 @@ margin-bottom:20px;
 
 }
 
-/* IMAGEN */
-
 .quien-imagen{
 display:flex;
 justify-content:center;
@@ -243,8 +231,9 @@ width:520px;
 max-width:100%;
 }
 
+
 /* =========================
-   SECCION INDEX
+SECCION INDEX
 ========================= */
 
 .index{
@@ -265,15 +254,12 @@ padding:220px 40px 120px 40px;
 
 }
 
-/* GRID ICONOS */
-
 .index-container{
 
 max-width:1200px;
 width:100%;
 
 display:grid;
-
 grid-template-columns:repeat(5,1fr);
 
 align-items:center;
@@ -284,8 +270,6 @@ margin-top:80px;
 
 }
 
-/* ICONOS */
-
 .index-item img{
 
 width:160px;
@@ -295,14 +279,13 @@ transition:transform .25s ease;
 
 }
 
-/* HOVER */
-
 .index-item:hover img{
 transform:scale(1.08);
 }
 
+
 /* =========================
-   SECCION EXPERIENCIA
+SECCION EXPERIENCIA
 ========================= */
 
 .experiencia{
@@ -323,11 +306,14 @@ display:block;
 
 }
 
+
 /* =========================
-   SECCION BRANDING
+SECCION BRANDING
 ========================= */
 
 .branding{
+
+position:relative;
 
 width:100%;
 min-height:100vh;
@@ -345,6 +331,19 @@ padding:120px 40px;
 
 }
 
+.icono-branding{
+
+position:absolute;
+
+top:60px;
+right:60px;
+
+width:90px;
+
+z-index:5;
+
+}
+
 .branding-container{
 
 max-width:1200px;
@@ -359,18 +358,13 @@ gap:10px;
 
 }
 
-/* CONTENEDOR IMAGEN */
-
 .branding-imagen{
 
 position:relative;
 display:flex;
 justify-content:center;
 
-
 }
-
-/* IMAGEN PRINCIPAL */
 
 .branding-material{
 
@@ -379,8 +373,6 @@ max-width:550px;
 margin-left:25px;
 
 }
-
-/* LOGO FLOTANTE */
 
 .branding-logo{
 
@@ -395,8 +387,6 @@ animation:rotarLogo 18s linear infinite;
 
 }
 
-/* ANIMACION */
-
 @keyframes rotarLogo{
 
 0%{
@@ -408,7 +398,6 @@ transform:translateX(-50%) rotate(360deg);
 }
 
 }
-/* TEXTO */
 
 .branding-texto{
 
@@ -419,7 +408,6 @@ flex-direction:column;
 align-items:center;
 
 text-align:center;
-margin-right:px;
 
 }
 
@@ -432,148 +420,62 @@ max-width:420px;
 
 }
 
+
 /* =========================
-   RESPONSIVE
+FRAVAZ
 ========================= */
 
-@media (max-width:768px){
-
-.top-header{
-height:90px;
-padding:0 20px;
+.fravaz{
+background-image:url("../img/fondofravaz.png");
 }
 
-.logo-header{
-width:50px;
+.fravaz .branding-texto{
+color:black;
 }
 
-.menu-hamburguesa{
-width:32px;
+.fravaz .titulo-proyecto{
+color:black;
 }
 
-.hero{
-padding-top:90px;
-}
+.fravaz .branding-logo{
 
-.hero-content{
-flex-direction:column;
-}
-
-.logo-racxo{
-width:200px;
-}
-
-.titulo-portafolio{
-
-margin-left:0;
-margin-top:-40px;
-width:280px;
+top:170px;
+left:520px;
 
 }
 
-/* QUIEN SOY MOBILE */
 
-.quien-container{
+/* =========================
+SUMMIT
+========================= */
 
-grid-template-columns:1fr;
-gap:40px;
-text-align:center;
+.summit{
+background-image:url("../img/fondosummit.png");
+}
+
+.summit .titulo-proyecto{
+color:white;
+}
+
+.summit .branding-texto{
+
+color:white;
+
+order:1;
+align-items:flex-start;
+text-align:left;
 
 }
 
-.quien-texto{ order:1; }
-
-.quien-imagen{ order:0; }
-
-.quien-imagen img{
-width:280px;
+.summit .branding-imagen{
+order:2;
 }
 
-.quien-titulo{
+.summit .branding-logo{
 
-width:260px;
-margin:auto;
-margin-bottom:20px;
+top:30px;
+left:200px;
 
-}
-
-/* INDEX MOBILE */
-
-.index{
-
-background-image:url("../img/index_mobile.png");
-background-size:cover;
-background-position:center top;
-background-repeat:no-repeat;
-
-padding:260px 20px 120px 20px;
-
-min-height:900px;
-
-}
-
-.index-container{
-
-display:grid;
-
-grid-template-columns:repeat(2,1fr);
-
-gap:40px;
-
-max-width:320px;
-
-margin:auto;
-
-justify-items:center;
-margin-top:100px;
-
-}
-
-.index-item:nth-child(3){
-grid-column:1 / span 2;
-}
-
-.index-item:nth-child(4){
-grid-column:1;
-}
-
-.index-item:nth-child(5){
-grid-column:2;
-}
-
-/* BRANDING MOBILE */
-
-.branding-container{
-
-grid-template-columns:1fr;
-text-align:center;
-
-gap:40px;
-
-}
-
-.branding-material{
-
-max-width:320px;
-margin-left:0;
-
-}
-
-.branding-imagen{
-position:relative;
-display:flex;
-justify-content:center;
-align-items:center;
-}
-
-.branding-logo{
-
-width:110px;
-
-top:-20px;
-left:215px;
-
-}
-
+width:220px;
 
 }
