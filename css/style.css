@@ -342,7 +342,8 @@ z-index:5;
 }
 
 .branding{
-
+   
+position:relative;
 width:100%;
 min-height:100vh;
 
@@ -622,6 +623,17 @@ grid-column:2;
 
 /* BRANDING MOBILE */
 
+/* ICONO BRANDING MOBILE */
+
+.icono-branding{
+
+top:40px;
+right:25px;
+
+width:55px;
+
+}
+
 .branding-container{
 
 grid-template-columns:1fr;
@@ -710,5 +722,6 @@ left:210px;
 width:110px;
 
 }
+   
 
 }
