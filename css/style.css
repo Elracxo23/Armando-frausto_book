@@ -559,13 +559,9 @@ background-image:url("../img/fondovideo1.png");
 /* CONTENEDOR */
 
 .motion-container{
-
-max-width:1200px;
-width:100%;
-
 display:flex;
 justify-content:center;
-
+align-items:center;
 }
 
 /* VIDEO */
