@@ -334,8 +334,8 @@ display:block;
 
 position:absolute;
 
-top:60px;
-right:60px;
+top:20px;
+right:20px;
 
 width:90px;
 
@@ -784,7 +784,7 @@ grid-column:2;
 top:40px;
 right:25px;
 
-width:55px;
+width:90px;
 
 }
 
