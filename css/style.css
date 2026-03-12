@@ -526,6 +526,97 @@ text-align:center;
 }
 
 /* =========================
+   SECCION MOTION GRAPHICS
+========================= */
+
+.motion{
+
+position:relative;
+
+width:100%;
+min-height:100vh;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+padding:120px 40px;
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+}
+
+/* FONDO */
+
+.motion-video1{
+
+background-image:url("../img/fondovideo1.png");
+
+}
+
+/* CONTENEDOR */
+
+.motion-container{
+
+max-width:1200px;
+width:100%;
+
+display:flex;
+justify-content:center;
+
+}
+
+/* VIDEO */
+
+.motion-video{
+
+width:720px;
+max-width:100%;
+
+border-radius:20px;
+
+/* AJUSTE PARA CAER EN LA TARJETA DEL FONDO */
+
+position:relative;
+
+top:40px;
+left:0px;
+
+}
+
+/* TEXTO PNG */
+
+.motion-texto{
+
+position:absolute;
+
+top:80px;
+right:140px;
+
+width:320px;
+
+transform:rotate(-6deg);
+
+}
+
+/* ICONO MOTION */
+
+.icono-motion{
+
+position:absolute;
+
+top:60px;
+left:80px;
+
+width:90px;
+
+z-index:5;
+
+}
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -567,6 +658,35 @@ margin:auto;
 .ux-cancelacion .ux-material{
 width:280px;
 margin:auto;
+}
+
+/* MOTION MOBILE */
+
+.motion-video{
+
+width:320px;
+
+top:0;
+left:0;
+
+}
+
+.motion-texto{
+
+top:110px;
+right:30px;
+
+width:200px;
+
+}
+
+.icono-motion{
+
+top:40px;
+left:25px;
+
+width:65px;
+
 }
 
 }
