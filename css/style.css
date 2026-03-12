@@ -574,18 +574,16 @@ justify-content:center;
 
 width:720px;
 max-width:100%;
+height:auto;
 
 border-radius:20px;
-
-/* AJUSTE PARA CAER EN LA TARJETA DEL FONDO */
 
 position:relative;
 
 top:150px;
-left:0px;
+left:0;
 
 }
-
 /* TEXTO PNG */
 
 .motion-texto{
@@ -664,7 +662,8 @@ margin:auto;
 
 .motion-video{
 
-width:320px;
+width:300px;
+max-width:100%;
 
 top:0;
 left:0;
@@ -673,10 +672,10 @@ left:0;
 
 .motion-texto{
 
-top:110px;
-right:30px;
-
 width:200px;
+
+top:120px;
+right:30px;
 
 }
 
