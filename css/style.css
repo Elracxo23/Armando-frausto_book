@@ -622,6 +622,27 @@ z-index:5;
 }
 
 /* =========================
+   UX UI STARBERM
+========================= */
+
+.ux-starberm{
+
+background-image:url("../img/fondo_starberm.png");
+
+}
+
+.ux-starberm .ux-material{
+
+width:650px;  
+
+position:relative;
+
+top:40px;      
+left:80px;     
+
+}
+
+/* =========================
    UX UI SUPER COMICS
 ========================= */
 
@@ -633,8 +654,8 @@ background-image:url("../img/fondoux2.png");
 
 .ux-supercomics .ux-texto{
 
-align-items:flex-start;
-text-align:left;
+align-items:center;
+text-align:center;
 
 }
 
@@ -925,6 +946,30 @@ margin:30px auto;
 
 width:370px;
 margin-top: -50px;
+
+}
+
+/* =========================
+   UX STARBERM MOBILE
+========================= */
+
+.ux-starberm .ux-container{
+
+grid-template-columns:1fr;
+gap:40px;
+
+}
+
+.ux-starberm .ux-material{
+
+width:300px;   
+
+position:relative;
+
+top:20px;      
+left:0px;      
+
+margin:auto;
 
 }
 
