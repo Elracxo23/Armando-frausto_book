@@ -2,30 +2,27 @@
 html, body{
 overflow-x:hidden;
 }
+
 /* =========================
    FUENTE PERSONALIZADA
 ========================= */
 
 @font-face{
-
 font-family:"StingerFit";
 src:url("../fonts/StingerFitTrial-Heavy.ttf") format("truetype");
 font-weight:700;
 font-style:normal;
-
 }
 
 /* TITULOS DE PROYECTOS */
 
 .titulo-proyecto{
-
 font-family:"StingerFit", serif;
 font-size:64px;
 letter-spacing:2px;
 color:white;
 text-align:center;
 margin-bottom:20px;
-
 }
 
 *{
@@ -41,64 +38,46 @@ font-family:Arial, Helvetica, sans-serif;
 /* HEADER */
 
 .top-header{
-
 width:100%;
 height:110px;
-
 background-image:url("../img/header.png");
 background-size:cover;
 background-position:center;
-
 display:flex;
 align-items:center;
 justify-content:space-between;
-
 padding:0 40px;
-
 position:fixed;
 top:0;
 left:0;
-
 z-index:100;
-
 }
 
 /* MENU */
 
 .menu-hamburguesa{
-
 width:45px;
 cursor:pointer;
-
 }
 
 /* LOGO HEADER */
 
 .logo-header{
-
 width:65px;
-
 }
 
 /* MENU LATERAL */
 
 .side-menu{
-
 position:fixed;
 top:0;
 left:-300px;
-
 width:300px;
 height:100vh;
-
 background:#111;
-
 padding-top:140px;
-
 transition:left .3s ease;
-
 z-index:90;
-
 }
 
 .side-menu ul{
@@ -125,31 +104,23 @@ left:0;
 /* HERO */
 
 .hero{
-
 height:100vh;
-
 background-image:url("../img/portadafondo.png");
 background-size:cover;
 background-position:center;
-
 display:flex;
 align-items:center;
 justify-content:center;
-
 padding-top:110px;
-
 }
 
 /* CONTENIDO HERO */
 
 .hero-content{
-
 display:flex;
 align-items:center;
 justify-content:center;
-
 gap:0;
-
 }
 
 /* LOGO GRANDE */
@@ -161,12 +132,9 @@ width:clamp(200px,28vw,380px);
 /* TITULO */
 
 .titulo-portafolio{
-
 width:clamp(320px,45vw,650px);
-
 margin-left:-120px;
 margin-top:50px;
-
 }
 
 /* =========================
@@ -174,42 +142,29 @@ margin-top:50px;
 ========================= */
 
 .quien-soy{
-
 width:100%;
-
 background-image:url("../img/fondo-presentacion.png");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
-
 display:flex;
 align-items:center;
 justify-content:center;
-
 padding:120px 40px;
-
 min-height:100vh;
 text-align:center;
-
 }
 
 /* CONTENEDOR GRID */
 
 .quien-container{
-
 max-width:1200px;
 width:100%;
-
 margin:auto;
-
 display:grid;
-
 grid-template-columns:1fr 1fr;
-
 align-items:center;
-
 gap:10px;
-
 }
 
 /* TEXTO */
@@ -224,11 +179,9 @@ margin-bottom:30px;
 }
 
 .quien-texto p{
-
 font-size:16px;
 line-height:1.7;
 margin-bottom:20px;
-
 }
 
 /* IMAGEN */
@@ -248,51 +201,37 @@ max-width:100%;
 ========================= */
 
 .index{
-
 width:100%;
 min-height:100vh;
-
 background-image:url("../img/fondoindex.jpg");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
-
 display:flex;
 align-items:center;
 justify-content:center;
-
 padding:220px 40px 120px 40px;
-
 }
 
 /* GRID ICONOS */
 
 .index-container{
-
 max-width:1200px;
 width:100%;
-
 display:grid;
-
 grid-template-columns:repeat(5,1fr);
-
 align-items:center;
 justify-items:center;
-
 gap:40px;
 margin-top:80px;
-
 }
 
 /* ICONOS */
 
 .index-item img{
-
 width:160px;
 max-width:100%;
-
 transition:transform .25s ease;
-
 }
 
 /* HOVER */
@@ -306,21 +245,16 @@ transform:scale(1.08);
 ========================= */
 
 .experiencia{
-
 width:100%;
 display:flex;
 justify-content:center;
-
 background:#000;
-
 }
 
 .experiencia-barra{
-
 width:100%;
 max-width:100%;
 display:block;
-
 }
 
 /* =========================
@@ -330,122 +264,84 @@ display:block;
 /* ICONO BRANDING */
 
 .icono-branding{
-
 position:absolute;
-
 top:60px;
 right:60px;
-
 width:90px;
-
 z-index:5;
-
 }
 
 .branding{
-   
 position:relative;
 width:100%;
 min-height:100vh;
-
 background-image:url("../img/wazafondo.png");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
-
 display:flex;
 align-items:center;
 justify-content:center;
-
 padding:120px 40px;
-
 }
 
 .branding-container{
-
 max-width:1200px;
 width:100%;
-
 display:grid;
 grid-template-columns:1.2fr 1fr;
-
 align-items:center;
-
 gap:10px;
-
 }
 
 /* CONTENEDOR IMAGEN */
 
 .branding-imagen{
-
 position:relative;
 display:flex;
 justify-content:center;
-
-
 }
 
 /* IMAGEN PRINCIPAL */
 
 .branding-material{
-
 width:110%;
 max-width:550px;
 margin-left:25px;
-
 }
 
 /* LOGO FLOTANTE */
 
 .branding-logo{
-
 position:absolute;
-
 top:-80px;
 left:455px;
-
 width:220px;
-
 animation:rotarLogo 18s linear infinite;
-
 }
 
 /* ANIMACION */
 
 @keyframes rotarLogo{
-
-0%{
-transform:translateX(-50%) rotate(0deg);
+0%{transform:translateX(-50%) rotate(0deg);}
+100%{transform:translateX(-50%) rotate(360deg);}
 }
 
-100%{
-transform:translateX(-50%) rotate(360deg);
-}
-
-}
 /* TEXTO */
 
 .branding-texto{
-
 color:white;
-
 display:flex;
 flex-direction:column;
 align-items:center;
-
 text-align:center;
-margin-right:px;
-
+margin-right:0;
 }
 
 .branding-texto p{
-
 font-size:18px;
 line-height:1.6;
-
 max-width:420px;
-
 }
 
 /* =========================
@@ -456,22 +352,14 @@ max-width:420px;
 background-image:url("../img/fondofravaz.png");
 }
 
-/* TEXTO */
-
 .fravaz .branding-texto{
 color:black;
 }
 
-/* POSICION LOGO */
-
 .fravaz .branding-logo{
-
 top:170px;
 left:520px;
-
 }
-
-/* TITULO FRAVAZ */
 
 .fravaz .titulo-proyecto{
 color:black;
@@ -482,56 +370,33 @@ color:black;
 ========================= */
 
 .summit{
-
 background-image:url("../img/fondosummit.png");
-
 }
-
-/* TEXTO */
 
 .summit .titulo-proyecto{
 color:white;
 }
 
 .summit .branding-texto{
-
 color:white;
-
 order:1;
 align-items:flex-start;
 text-align:left;
-
 }
-
-/* IMAGEN DERECHA */
 
 .summit .branding-imagen{
-
 order:2;
-
 }
 
-/* POSICION LOGO DESKTOP */
-
 .summit .branding-logo{
-
 top:30px;
 left:200px;
 width:220px;
-
 }
 
 /* =========================
    SECCION UX UI
 ========================= */
-
-/* TITULO UX */
-
-.uxui .titulo-proyecto{
-color:black;
-text-align:center;
-
-}
 
 .uxui{
 
@@ -546,98 +411,83 @@ justify-content:center;
 
 padding:120px 40px;
 
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+overflow:hidden;
+}
+
+/* TITULO UX */
+
+.uxui .titulo-proyecto{
+color:black;
+text-align:center;
 }
 
 /* GRID */
 
 .ux-container{
-
 max-width:1200px;
 width:100%;
-
 display:grid;
 grid-template-columns:1fr 1fr;
-
 align-items:center;
-
 gap:40px;
-
 }
 
 /* TEXTO */
 
 .ux-texto{
-
 display:flex;
 flex-direction:column;
 align-items:center;
 text-align:center;
-
 }
 
 /* CUADRO TEXTO */
 
 .ux-cuadro{
-
 width:200px;
 max-width:100%;
-
 margin-top:40px;
-
 }
 
 /* IMAGEN */
 
 .ux-imagen{
-
 display:flex;
 justify-content:center;
-
 }
 
 .ux-material{
-
 width:520px;
 max-width:100%;
-
 }
+
 /* ICONO UX */
 
 .icono-ux{
-
 position:absolute;
-
 top:20px;
 right:60px;
-
 width:90px;
-
 z-index:5;
-
 }
 
 /* =========================
-   UX UI STARBERM
+   UX UI STARBEM
 ========================= */
 
 .ux-starberm{
-
 background-image:url("../img/fondo_ux1.png");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-
 }
 
 .ux-starberm .ux-material{
-
-width:650px;  
-
+width:650px;
 position:relative;
-
-top:40px;      
-left:80px;     
-
+top:40px;
+left:80px;
 }
 
 /* =========================
@@ -645,22 +495,16 @@ left:80px;
 ========================= */
 
 .ux-supercomics{
-
 background-image:url("../img/fondoux2.png");
-
 }
 
 .ux-supercomics .ux-texto{
-
 align-items:center;
 text-align:center;
-
 }
 
 .ux-supercomics .ux-material{
-
 width:520px;
-
 }
 
 /* =========================
@@ -668,23 +512,17 @@ width:520px;
 ========================= */
 
 .ux-cancelacion{
-
 background-image:url("../img/fondo_ux3.png");
-
 }
 
 .ux-cancelacion .ux-material{
-
 width:480px;
 max-width:100%;
-
 }
 
 .ux-cancelacion .ux-texto{
-
 align-items:center;
 text-align:center;
-
 }
 
 /* =========================
@@ -693,319 +531,42 @@ text-align:center;
 
 @media (max-width:768px){
 
-.top-header{
-height:90px;
-padding:0 20px;
-}
-
-.logo-header{
-width:50px;
-}
-
-.menu-hamburguesa{
-width:32px;
-}
-
-.hero{
-padding-top:90px;
-}
-
-.hero-content{
-flex-direction:column;
-}
-
-.logo-racxo{
-width:200px;
-}
-
-.titulo-portafolio{
-
-margin-left:0;
-margin-top:-40px;
-width:280px;
-
-}
-
-/* QUIEN SOY MOBILE */
-
-.quien-container{
-
-grid-template-columns:1fr;
-gap:40px;
-text-align:center;
-
-}
-
-.quien-texto{ order:1; }
-
-.quien-imagen{ order:0; }
-
-.quien-imagen img{
-width:280px;
-}
-
-.quien-titulo{
-
-width:260px;
-margin:auto;
-margin-bottom:20px;
-
-}
-
-/* INDEX MOBILE */
-
-.index{
-
-background-image:url("../img/index_mobile.png");
-background-size:cover;
-background-position:center top;
-background-repeat:no-repeat;
-
-padding:260px 20px 120px 20px;
-
-min-height:900px;
-
-}
-
-.index-container{
-
-display:grid;
-
-grid-template-columns:repeat(2,1fr);
-
-gap:40px;
-
-max-width:320px;
-
-margin:auto;
-
-justify-items:center;
-margin-top:100px;
-
-}
-
-.index-item:nth-child(3){
-grid-column:1 / span 2;
-}
-
-.index-item:nth-child(4){
-grid-column:1;
-}
-
-.index-item:nth-child(5){
-grid-column:2;
-}
-
-/* BRANDING MOBILE */
-
-.branding-container{
-
-grid-template-columns:1fr;
-text-align:center;
-
-gap:40px;
-
-}
-
-.branding-material{
-
-max-width:320px;
-margin-left:0;
-
-}
-
-.branding-imagen{
-position:relative;
-display:flex;
-justify-content:center;
-align-items:center;
-}
-
-.branding-logo{
-
-width:110px;
-
-top:-20px;
-left:215px;
-
-}
-
-/* FRAVAZ MOBILE */
-
-.fravaz .titulo-proyecto{
-color:white;
-}
-
-.fravaz .branding-texto{
-color:white;
-}
-
-/* POSICION LOGO FRAVAZ MOBILE */
-
-.fravaz .branding-logo{
-
-top:95px;
-left:240px;
-width:110px;
-
-}
-
-/* =========================
-   SUMMIT MOBILE
-========================= */
-
-.summit .branding-container{
-
-grid-template-columns:1fr;
-
-}
-
-.summit .branding-imagen{
-
-order:1;
-
-}
-
-.summit .branding-texto{
-
-order:2;
-
-color:white;
-
-text-align:center;
-align-items:center;
-
-}
-
-/* LOGO SUMMIT MOBILE */
-
-.summit .branding-logo{
-
-top:40px;
-left:120px;
-width:110px;
-
-}
-
-/* ICONO BRANDING MOBILE */
-
-.icono-branding{
-
-top:40px;
-right:25px;
-
-width:67px;
-
-}
-
-/* UX UI MOBILE */
-
 .ux-container{
-
 grid-template-columns:1fr;
 gap:40px;
-
 }
-
-/* TITULO */
 
 .uxui .titulo-proyecto{
-
 font-size:38px;
 color:black;
 text-align:center;
-
 }
 
-/* TEXTO */
-
 .ux-texto p{
-
 font-size:15px;
 line-height:1.6;
 text-align:center;
-
 padding:0 20px;
-
 }
-
-/* CUADRO TEXTO */
 
 .ux-cuadro{
-
 width:170px;
 margin:30px auto;
-
 }
-
-/* GIF */
 
 .ux-material{
-
 width:370px;
-margin-top: -50px;
-
-}
-
-/* =========================
-   UX STARBERM MOBILE
-========================= */
-
-.ux-starberm .ux-container{
-
-grid-template-columns:1fr;
-gap:40px;
-
-}
-
-.ux-starberm .ux-material{
-
-width:300px;   
-
-position:relative;
-
-top:20px;      
-left:0px;      
-
-margin:auto;
-
-}
-
-/* UX SUPER COMICS MOBILE */
-
-.ux-supercomics .ux-container{
-
-grid-template-columns:1fr;
-gap:40px;
-
+margin-top:-50px;
 }
 
 .ux-supercomics .ux-material{
-
 width:280px;
 margin:auto;
-
-}
-
-.ux-supercomics .ux-texto{
-
-text-align:center;
-align-items:center;
-
-}
-
-/* UX CANCELACION MOBILE */
-
-.ux-cancelacion .ux-container{
-
-grid-template-columns:1fr;
-gap:40px;
-
 }
 
 .ux-cancelacion .ux-material{
-
 width:280px;
 margin:auto;
+}
 
 }
