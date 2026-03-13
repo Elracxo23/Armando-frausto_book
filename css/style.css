@@ -1505,16 +1505,18 @@ gap:60px;
 
 /* ARTES */
 
+/* ARTES ARRIBA */
+
 .ilustracion-imagen{
 
 order:1;
 
 display:flex;
 justify-content:center;
+align-items:center;
 
-transform:translateX(-370px); /* mueve el bloque completo */
-
-position:relative;
+transform:none;
+left:auto;
 
 }
 
@@ -1524,22 +1526,23 @@ position:relative;
 
 width:260px;
 
-transform:translateX(-20px); /* ajuste fino */
+transform:none;
+left:auto;
 
 }
 
-/* GIF */
+/* GIF DETRAS */
 
 .ilustracion-gif{
 
 position:absolute;
 
-top:-80px;
+top:-20px;
 left:50%;
 
-transform:translateX(60px); /* posicion estable en iPhone */
+transform:translateX(-50%);
 
-width:200px;
+width:160px;
 
 }
 
