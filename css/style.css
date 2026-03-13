@@ -1060,20 +1060,50 @@ margin:auto;
 
 /* MOTION MOBILE */
 
+.motion{
+
+background-image:url("../img/fondovideo_mobile.png");
+background-size:cover;
+background-position:center top;
+background-repeat:no-repeat;
+
+min-height:auto;
+padding:140px 0 120px 0;
+
+}
+
+/* ocultar fondo desktop */
+
+.motion-fondo1{
+display:none;
+}
+
+/* contenedor */
+
 .motion-video1{
 
+position:relative;
 width:100%;
 
 }
 
+/* video */
+
 .motion-player1{
 
-top:70px;
-left:30px;
+position:absolute;
 
-width:260px;
+top:210px;
+left:50%;
+
+transform:translateX(-50%);
+
+width:85%;
+max-width:320px;
 
 }
+
+/* texto */
 
 .motion-texto1{
 
@@ -1084,6 +1114,8 @@ right:-10px;
 
 }
 
+/* icono */
+
 .motion-icono{
 
 width:70px;
@@ -1091,19 +1123,4 @@ width:70px;
 top:-20px;
 left:-10px;
 
-}
-
-/* MOTION MOBILE */
-
-.motion{
-
-background-image:url("../img/fondovideo_mobile.png");
-background-size:cover;
-background-position:center top;
-
-min-height:auto;
-padding:140px 0 120px 0;
-
-}
-   
 }
