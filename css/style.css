@@ -891,7 +891,7 @@ gap:40px;
 
 }
 
-/* IMAGENES */
+/* CONTENEDOR ARTES */
 
 .ilustracion-imagen{
 
@@ -901,12 +901,9 @@ display:flex;
 justify-content:center;
 align-items:center;
 
-width:100%;
-max-width:600px;
-
 }
 
-/* ARTES */
+/* PNG PRINCIPAL */
 
 .ilustracion-artes{
 
@@ -914,28 +911,28 @@ position:relative;
 
 width:420px;
 
+z-index:2;
+
 }
 
-/* GIF */
+
 
 .ilustracion-gif{
 
 position:absolute;
 
-/* AJUSTA ESTOS VALORES A MANO */
+
 
 top:-40px;
-left:-20px;
+left:-40px;
 
 width:260px;
+
+z-index:1;
 
 }
 
 /* TEXTO */
-
-.ilustracion .titulo-proyecto{
-color:black;
-}
 
 .ilustracion-texto{
 
@@ -948,6 +945,16 @@ text-align:center;
 color:black;
 
 }
+
+/* TITULO */
+
+.ilustracion .titulo-proyecto{
+
+color:black;
+
+}
+
+/* TEXTO DESCRIPCION */
 
 .ilustracion-texto p{
 
