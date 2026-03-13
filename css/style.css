@@ -912,11 +912,11 @@ transform:translateY(200px); /* AQUI PUEDES AJUSTAR ALTURA */
 
 position:relative;
 
-width:420px;
+width:400px;
 
 z-index:2;
 
-transform:translateX(-150px); /* mueve a derecha o izquierda */
+transform:translateX(-250px); /* mueve a derecha o izquierda */
 
 }
 
