@@ -1170,7 +1170,7 @@ width:100%;
 
 position:absolute;
 
-top:-340px;
+top:-300px;
 left:50%;
 
 transform:translateX(-50%);
@@ -1186,7 +1186,7 @@ max-width:300px;
 
 position:absolute;
 
-top:-440px;
+top:-420px;
 right:10px;
 
 width:130px;
@@ -1199,7 +1199,7 @@ width:130px;
 
 position:absolute;
 
-top:-470px;
+top:-440px;
 left:20px;
 
 width:60px;
@@ -1238,7 +1238,7 @@ display:none;
 
 position:absolute;
 
-top:-40px;
+top:-30px;
 left:50%;
 
 transform:translateX(-50%);
@@ -1254,7 +1254,7 @@ max-width:300px;
 
 position:absolute;
 
-top:150px;
+top:165px;
 left:30px;
 
 width:110px;
