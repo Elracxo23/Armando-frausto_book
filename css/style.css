@@ -889,6 +889,8 @@ align-items:center;
 
 gap:40px;
 
+direction:rtl;
+
 }
 
 /* ARTES */
@@ -935,6 +937,8 @@ z-index:1;
 /* TEXTO */
 
 .ilustracion-texto{
+direction:ltr;
+}
 
 order:2;
 
