@@ -901,14 +901,18 @@ display:flex;
 justify-content:center;
 align-items:center;
 
+width:100%;
+max-width:600px;
+
 }
 
 /* ARTES */
 
 .ilustracion-artes{
 
-width:520px;
-max-width:100%;
+position:relative;
+
+width:420px;
 
 }
 
@@ -918,22 +922,28 @@ max-width:100%;
 
 position:absolute;
 
-top:40px;
-left:60px;
+/* AJUSTA ESTOS VALORES A MANO */
 
-width:220px;
+top:-40px;
+left:-20px;
 
-border-radius:20px;
+width:260px;
 
 }
 
 /* TEXTO */
 
+.ilustracion .titulo-proyecto{
+color:black;
+}
+
 .ilustracion-texto{
 
 display:flex;
 flex-direction:column;
-align-items:flex-start;
+
+align-items:center;
+text-align:center;
 
 color:black;
 
@@ -941,7 +951,8 @@ color:black;
 
 .ilustracion-texto p{
 
-max-width:420px;
+max-width:260px;
+
 margin-top:20px;
 
 font-size:18px;
