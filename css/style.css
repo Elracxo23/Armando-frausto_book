@@ -853,7 +853,7 @@ background-position:center;
 background-repeat:no-repeat;
 
 display:flex;
-align-items:center;
+align-items:flex-start;
 justify-content:center;
 
 padding:120px 40px;
