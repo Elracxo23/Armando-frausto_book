@@ -1403,93 +1403,17 @@ width:110px;
 
 }
 /* =========================
-   ILUSTRACION MOBILE
-========================= */
-
-.ilustracion-container{
-
-grid-template-columns:1fr;
-
-gap:40px;
-
-text-align:center;
-
-}
-
-/* ARTES ARRIBA */
-
-.ilustracion-imagen{
-
-order:1;
-
-display:flex;
-justify-content:center;
-
-}
-
-/* TEXTO ABAJO */
-
-.ilustracion-texto{
-
-order:2;
-
-align-items:center;
-text-align:center;
-
-padding:0 20px;
-
-}
-
-/* TITULO */
-
-.ilustracion .titulo-proyecto{
-
-font-size:38px;
-
-}
-
-/* PNG */
-
-.ilustracion-artes{
-
-width:280px;
-
-}
-
-/* GIF DETRAS */
-
-.ilustracion-gif{
-
-position:absolute;
-
-top:-20px;
-left:50%;
-
-transform:translateX(-50%);
-
-width:160px;
-
-}
-
-/* ICONO */
-
-.icono-ilustracion{
-
-top:40px;
-left:25px;
-
-width:80px;
-
-}
-
-/* =========================
    FIX ILUSTRACION MOBILE
 ========================= */
 
 .ilustracion{
 
+display:block; /* QUITA EL FLEX DEL DESKTOP */
+
 min-height:auto;
+
 padding:160px 20px 120px 20px;
+
 margin-top:230px;
 
 }
@@ -1498,14 +1422,17 @@ margin-top:230px;
 
 .ilustracion-container{
 
+display:grid;
+
 grid-template-columns:1fr;
+
 gap:60px;
+
+justify-items:center;
 
 }
 
 /* ARTES */
-
-/* ARTES ARRIBA */
 
 .ilustracion-imagen{
 
@@ -1515,8 +1442,9 @@ display:flex;
 justify-content:center;
 align-items:center;
 
+position:relative;
+
 transform:none;
-left:auto;
 
 }
 
@@ -1526,8 +1454,9 @@ left:auto;
 
 width:260px;
 
+position:relative;
+
 transform:none;
-left:auto;
 
 }
 
@@ -1537,12 +1466,12 @@ left:auto;
 
 position:absolute;
 
-top:-20px;
+top:-40px;
 left:50%;
 
 transform:translateX(-50%);
 
-width:160px;
+width:180px;
 
 }
 
@@ -1558,9 +1487,9 @@ flex-direction:column;
 align-items:center;
 text-align:center;
 
-transform:none;
-
 padding:0 20px;
+
+transform:none;
 
 }
 
