@@ -1170,13 +1170,13 @@ width:100%;
 
 position:absolute;
 
-top:210px;
+top:-340px;
 left:50%;
 
 transform:translateX(-50%);
 
 width:85%;
-max-width:320px;
+max-width:300px;
 
 }
 
@@ -1186,10 +1186,10 @@ max-width:320px;
 
 position:absolute;
 
-top:-30px;
-right:-10px;
+top:-440px;
+right:10px;
 
-width:180px;
+width:130px;
 
 }
 
@@ -1199,10 +1199,10 @@ width:180px;
 
 position:absolute;
 
-top:-20px;
-left:-10px;
+top:-470px;
+left:20px;
 
-width:70px;
+width:60px;
 
 }
 
@@ -1238,13 +1238,13 @@ display:none;
 
 position:absolute;
 
-top:420px;
+top:-40px;
 left:50%;
 
 transform:translateX(-50%);
 
 width:85%;
-max-width:320px;
+max-width:300px;
 
 }
 
@@ -1254,9 +1254,9 @@ max-width:320px;
 
 position:absolute;
 
-top:690px;
-left:20px;
+top:150px;
+left:30px;
 
-width:180px;
+width:110px;
 
 }
