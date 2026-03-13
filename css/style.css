@@ -1489,6 +1489,7 @@ width:80px;
 
 min-height:auto;
 padding:160px 20px 120px 20px;
+margin-top: 230px;
 
 }
 
@@ -1512,6 +1513,8 @@ justify-content:center;
 
 transform:none; /* QUITA EL MOVIMIENTO DEL DESKTOP */
 
+left: -320px;
+
 }
 
 /* PNG */
@@ -1522,6 +1525,8 @@ width:260px;
 
 transform:none;
 
+left: -40px;
+
 }
 
 /* GIF */
@@ -1530,12 +1535,12 @@ transform:none;
 
 position:absolute;
 
-top:-30px;
-left:50%;
+top:-80px;
+left:90%;
 
 transform:translateX(-50%);
 
-width:150px;
+width:200px;
 
 }
 
