@@ -1480,3 +1480,84 @@ left:25px;
 width:80px;
 
 }
+
+/* =========================
+   FIX ILUSTRACION MOBILE
+========================= */
+
+.ilustracion{
+
+min-height:auto;
+padding:160px 20px 120px 20px;
+
+}
+
+/* CONTENEDOR */
+
+.ilustracion-container{
+
+grid-template-columns:1fr;
+
+gap:60px;
+
+}
+
+/* ARTES */
+
+.ilustracion-imagen{
+
+order:1;
+
+justify-content:center;
+
+transform:none; /* QUITA EL MOVIMIENTO DEL DESKTOP */
+
+}
+
+/* PNG */
+
+.ilustracion-artes{
+
+width:260px;
+
+transform:none;
+
+}
+
+/* GIF */
+
+.ilustracion-gif{
+
+position:absolute;
+
+top:-30px;
+left:50%;
+
+transform:translateX(-50%);
+
+width:150px;
+
+}
+
+/* TEXTO */
+
+.ilustracion-texto{
+
+order:2;
+
+align-items:center;
+text-align:center;
+
+transform:none;
+
+padding:0 20px;
+
+}
+
+/* TITULO */
+
+.ilustracion .titulo-proyecto{
+
+font-size:38px;
+
+}
