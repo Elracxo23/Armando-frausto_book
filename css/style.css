@@ -717,8 +717,11 @@ max-width:100%;
 .motion-fondo1{
 
 width:100%;
-max-width:900px;
+max-width:1200px;
+
 display:block;
+
+margin:auto;
 
 }
 
