@@ -869,7 +869,7 @@ position:absolute;
 top:60px;
 left:60px;
 
-width:90px;
+width:100px;
 
 z-index:5;
 
@@ -902,7 +902,7 @@ position:relative;
 display:flex;
 justify-content:flex-end;
 
-transform:translateY(-120px); /* AQUI PUEDES AJUSTAR ALTURA */
+transform:translateY(200px); /* AQUI PUEDES AJUSTAR ALTURA */
 
 }
 
@@ -916,7 +916,7 @@ width:420px;
 
 z-index:2;
 
-transform:translateX(40px); /* mueve a derecha o izquierda */
+transform:translateX(-150px); /* mueve a derecha o izquierda */
 
 }
 
@@ -929,11 +929,11 @@ position:absolute;
 top:-60px;
 left:-60px;
 
-width:280px;
+width:300px;
 
 z-index:1;
 
-transform:translateX(-40px); /* mueve el gif */
+transform:translateX(300px); /* mueve el gif */
 
 }
 
@@ -951,7 +951,7 @@ text-align:center;    /* centra el texto */
 
 color:black;
 
-transform:translateY(-40px);
+transform:translateY(-120px);
 
 }
 
