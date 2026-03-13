@@ -789,9 +789,9 @@ justify-content:center;
 position:relative;
 
 width:100%;
-max-width:1200px;
 
-margin:auto;
+display:flex;
+justify-content:center;
 
 }
 
@@ -800,7 +800,7 @@ margin:auto;
 .motion-fondo2{
 
 width:100%;
-height:auto;
+max-width:1400px;
 
 display:block;
 
@@ -813,9 +813,11 @@ display:block;
 position:absolute;
 
 top:13%;
-left:10%;
+left:50%;
 
-width:80%;
+transform:translateX(-50%);
+
+width:78%;
 
 border-radius:30px;
 
