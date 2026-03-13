@@ -1063,7 +1063,7 @@ margin:auto;
 .motion{
 
 background-image:url("../img/fondovideo_mobile.png");
-background-size:cover;
+background-size:100% auto;
 background-position:center top;
 background-repeat:no-repeat;
 
