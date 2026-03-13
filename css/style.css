@@ -889,8 +889,6 @@ align-items:center;
 
 gap:40px;
 
-direction:rtl;
-
 }
 
 /* ARTES */
@@ -937,16 +935,16 @@ z-index:1;
 /* TEXTO */
 
 .ilustracion-texto{
+
 direction:ltr;
-}
 
 order:2;
 
 display:flex;
 flex-direction:column;
 
-align-items:center;
-text-align:center;
+align-items:flex-start;
+text-align:left;
 
 color:black;
 
@@ -969,6 +967,14 @@ margin-top:20px;
 font-size:18px;
 line-height:1.6;
 
+}
+
+.ilustracion-texto{
+grid-column:1;
+}
+
+.ilustracion-imagen{
+grid-column:2;
 }
 
 /* =========================
