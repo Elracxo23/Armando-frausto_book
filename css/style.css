@@ -707,8 +707,10 @@ align-items:center;
 
 position:relative;
 
-width:900px;
-max-width:100%;
+width:100%;
+max-width:1200px;
+
+margin:auto;
 
 }
 
@@ -717,11 +719,9 @@ max-width:100%;
 .motion-fondo1{
 
 width:100%;
-max-width:1200px;
+height:auto;
 
 display:block;
-
-margin:auto;
 
 }
 
@@ -731,12 +731,10 @@ margin:auto;
 
 position:absolute;
 
-/* AJUSTAR VIDEO */
+top:13%;
+left:10%;
 
-top:120px;
-left:90px;
-
-width:720px;
+width:80%;
 
 border-radius:30px;
 
