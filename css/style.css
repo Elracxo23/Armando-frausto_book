@@ -1511,7 +1511,7 @@ order:1;
 display:flex;
 justify-content:center;
 
-transform:translateX(-120px); /* mueve el bloque completo */
+transform:translateX(-370px); /* mueve el bloque completo */
 
 position:relative;
 
