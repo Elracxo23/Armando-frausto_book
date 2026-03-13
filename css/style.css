@@ -1092,5 +1092,18 @@ top:-20px;
 left:-10px;
 
 }
+
+/* MOTION MOBILE */
+
+.motion{
+
+background-image:url("../img/fondovideo1_mobile.png");
+background-size:cover;
+background-position:center top;
+
+min-height:auto;
+padding:140px 0 120px 0;
+
+}
    
 }
