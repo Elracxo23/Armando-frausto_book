@@ -853,7 +853,7 @@ background-position:center;
 background-repeat:no-repeat;
 
 display:flex;
-align-items:flex-start;
+align-items:center;
 justify-content:center;
 
 padding:120px 40px;
@@ -895,17 +895,18 @@ gap:40px;
 
 .ilustracion-imagen{
 
-order:1;
+grid-column:2;
 
 position:relative;
 
 display:flex;
-justify-content:center;
-align-items:center;
+justify-content:flex-end;
+
+transform:translateY(-120px); /* AQUI PUEDES AJUSTAR ALTURA */
 
 }
 
-/* PNG */
+/* PNG PRINCIPAL */
 
 .ilustracion-artes{
 
@@ -915,6 +916,8 @@ width:420px;
 
 z-index:2;
 
+transform:translateX(40px); /* mueve a derecha o izquierda */
+
 }
 
 /* GIF DETRAS */
@@ -923,12 +926,14 @@ z-index:2;
 
 position:absolute;
 
-top:-40px;
-left:-40px;
+top:-60px;
+left:-60px;
 
-width:260px;
+width:280px;
 
 z-index:1;
+
+transform:translateX(-40px); /* mueve el gif */
 
 }
 
@@ -936,24 +941,26 @@ z-index:1;
 
 .ilustracion-texto{
 
-direction:ltr;
-
-order:2;
+grid-column:1;
 
 display:flex;
 flex-direction:column;
 
-align-items:flex-start;
-text-align:left;
+align-items:center;   /* centra horizontalmente */
+text-align:center;    /* centra el texto */
 
 color:black;
+
+transform:translateY(-40px);
 
 }
 
 /* TITULO */
 
 .ilustracion .titulo-proyecto{
+
 color:black;
+
 }
 
 /* DESCRIPCION */
@@ -967,14 +974,6 @@ margin-top:20px;
 font-size:18px;
 line-height:1.6;
 
-}
-
-.ilustracion-texto{
-grid-column:1;
-}
-
-.ilustracion-imagen{
-grid-column:2;
 }
 
 /* =========================
