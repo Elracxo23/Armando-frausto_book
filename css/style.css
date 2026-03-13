@@ -1402,34 +1402,67 @@ width:110px;
 
 }
 
-/* ILUSTRACION MOBILE */
+/* =========================
+   ILUSTRACION MOBILE
+========================= */
 
 .ilustracion-container{
 
 grid-template-columns:1fr;
+
 gap:40px;
 
 text-align:center;
 
 }
 
-.ilustracion-texto{
+/* ARTES ARRIBA */
 
-align-items:center;
+.ilustracion-imagen{
+
+order:1;
+
+display:flex;
+justify-content:center;
 
 }
+
+/* TEXTO ABAJO */
+
+.ilustracion-texto{
+
+order:2;
+
+align-items:center;
+text-align:center;
+
+padding:0 20px;
+
+}
+
+/* TITULO */
+
+.ilustracion .titulo-proyecto{
+
+font-size:38px;
+
+}
+
+/* PNG */
 
 .ilustracion-artes{
 
-width:300px;
+width:280px;
 
 }
+
+/* GIF DETRAS */
 
 .ilustracion-gif{
 
 position:absolute;
 
-top:20px;
+top:-20px;
 left:50%;
 
 transform:translateX(-50%);
@@ -1437,6 +1470,8 @@ transform:translateX(-50%);
 width:160px;
 
 }
+
+/* ICONO */
 
 .icono-ilustracion{
 
