@@ -761,6 +761,80 @@ width:320px;
 }
 
 /* =========================
+   MOTION GRAPHICS VIDEO 2
+========================= */
+
+.motion2{
+
+position:relative;
+
+width:100%;
+min-height:100vh;
+
+background-image:url("../img/fondo_motion.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+
+/* CONTENEDOR */
+
+.motion-video2{
+
+position:relative;
+
+width:100%;
+max-width:1200px;
+
+margin:auto;
+
+}
+
+/* FONDO */
+
+.motion-fondo2{
+
+width:100%;
+height:auto;
+
+display:block;
+
+}
+
+/* VIDEO */
+
+.motion-player2{
+
+position:absolute;
+
+top:13%;
+left:10%;
+
+width:80%;
+
+border-radius:30px;
+
+}
+
+/* TEXTO */
+
+.motion-texto2{
+
+position:absolute;
+
+bottom:-40px;
+right:-40px;
+
+width:320px;
+
+}
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -1122,5 +1196,50 @@ width:70px;
 
 top:-20px;
 left:-10px;
+
+}
+
+/* SEGUNDO VIDEO EN MOBILE */
+
+.motion2{
+
+background:none;
+min-height:auto;
+padding:0;
+
+}
+
+/* ocultar fondo desktop */
+
+.motion-fondo2{
+display:none;
+}
+
+/* posicion del segundo video */
+
+.motion-player2{
+
+position:absolute;
+
+top:520px;
+left:50%;
+
+transform:translateX(-50%);
+
+width:85%;
+max-width:320px;
+
+}
+
+/* texto del segundo video */
+
+.motion-texto2{
+
+position:absolute;
+
+bottom:-60px;
+left:20px;
+
+width:180px;
 
 }
