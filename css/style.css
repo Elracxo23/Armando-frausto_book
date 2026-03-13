@@ -1285,9 +1285,11 @@ background-size:100% auto;
 background-position:center top;
 background-repeat:no-repeat;
 
-aspect-ratio:9 / 16;
+aspect-ratio:9/16;
 
 padding-top:140px;
+
+position:relative;
 
 }
 
@@ -1302,6 +1304,7 @@ display:none;
 .motion-video1{
 position:relative;
 width:100%;
+height:100%;
 }
 
 /* VIDEO 1 */
@@ -1310,7 +1313,7 @@ width:100%;
 
 position:absolute;
 
-top:-300px;
+top:32%;
 left:50%;
 
 transform:translateX(-50%);
@@ -1326,7 +1329,7 @@ max-width:300px;
 
 position:absolute;
 
-top:-420px;
+top:18%;
 right:10px;
 
 width:130px;
@@ -1339,7 +1342,7 @@ width:130px;
 
 position:absolute;
 
-top:-440px;
+top:14%;
 left:20px;
 
 width:60px;
@@ -1359,8 +1362,7 @@ padding:0;
 
 position:relative;
 
-/* esto hace que el segundo video caiga dentro
-   del mismo fondo del primero */
+/* mantiene el segundo video dentro del fondo */
 
 margin-top:-400px;
 
@@ -1378,7 +1380,7 @@ display:none;
 
 position:absolute;
 
-top:-30px;
+top:60%;
 left:50%;
 
 transform:translateX(-50%);
@@ -1394,13 +1396,12 @@ max-width:300px;
 
 position:absolute;
 
-top:165px;
+top:78%;
 left:30px;
 
 width:110px;
 
 }
-
 /* =========================
    ILUSTRACION MOBILE
 ========================= */
