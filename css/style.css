@@ -1489,7 +1489,7 @@ width:80px;
 
 min-height:auto;
 padding:160px 20px 120px 20px;
-margin-top: 230px;
+margin-top:230px;
 
 }
 
@@ -1509,11 +1509,13 @@ gap:60px;
 
 order:1;
 
+display:flex;
 justify-content:center;
 
 transform:none; /* QUITA EL MOVIMIENTO DEL DESKTOP */
 
-left: -320px;
+position:relative;
+left:-320px;
 
 }
 
@@ -1525,7 +1527,8 @@ width:260px;
 
 transform:none;
 
-left: -40px;
+position:relative;
+left:-40px;
 
 }
 
@@ -1549,6 +1552,9 @@ width:200px;
 .ilustracion-texto{
 
 order:2;
+
+display:flex;
+flex-direction:column;
 
 align-items:center;
 text-align:center;
