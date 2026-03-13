@@ -812,12 +812,12 @@ display:block;
 
 position:absolute;
 
-top:13%;
+top:10%;
 left:50%;
 
 transform:translateX(-50%);
 
-width:78%;
+width:58%;
 
 border-radius:30px;
 
@@ -829,10 +829,10 @@ border-radius:30px;
 
 position:absolute;
 
-bottom:-40px;
-right:-40px;
+bottom:60px;
+right:40px;
 
-width:320px;
+width:300px;
 
 }
 
