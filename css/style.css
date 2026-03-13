@@ -1498,7 +1498,6 @@ margin-top:230px;
 .ilustracion-container{
 
 grid-template-columns:1fr;
-
 gap:60px;
 
 }
@@ -1512,10 +1511,9 @@ order:1;
 display:flex;
 justify-content:center;
 
-transform:none; /* QUITA EL MOVIMIENTO DEL DESKTOP */
+transform:translateX(-120px); /* mueve el bloque completo */
 
 position:relative;
-left:-320px;
 
 }
 
@@ -1525,10 +1523,7 @@ left:-320px;
 
 width:260px;
 
-transform:none;
-
-position:relative;
-left:-40px;
+transform:translateX(-20px); /* ajuste fino */
 
 }
 
@@ -1539,9 +1534,9 @@ left:-40px;
 position:absolute;
 
 top:-80px;
-left:90%;
+left:50%;
 
-transform:translateX(-50%);
+transform:translateX(60px); /* posicion estable en iPhone */
 
 width:200px;
 
