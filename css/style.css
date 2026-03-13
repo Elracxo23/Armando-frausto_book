@@ -690,10 +690,7 @@ justify-content:center;
 
 .motion-container{
 
-max-width:1200px;
 width:100%;
-
-margin:auto;
 
 display:flex;
 justify-content:center;
@@ -708,9 +705,6 @@ align-items:center;
 position:relative;
 
 width:100%;
-max-width:1200px;
-
-margin:auto;
 
 }
 
