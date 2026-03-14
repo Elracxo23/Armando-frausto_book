@@ -1277,13 +1277,14 @@ margin:auto;
 ========================= */
 
 .motion{
-    
+
 background-image:url("../img/fondovideo_mobile.png");
 background-size:100% auto;
 background-position:center top;
 background-repeat:no-repeat;
 
-aspect-ratio:9/16;
+/* CAMBIAR ESTO */
+min-height:900px;
 
 padding-top:140px;
 
