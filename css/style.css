@@ -1356,6 +1356,10 @@ left:20px;
 
 width:60px;
 
+transform:
+translateX(0px)
+translateY(0px);
+
 }
 
 
