@@ -1091,8 +1091,8 @@ max-width:100%;
 /* AJUSTE MANUAL DEL ARTE */
 
 transform:
-translateX(0px)
-translateY(0px);
+translateX(-10px)
+translateY(-200px);
 
 }
 
@@ -1728,13 +1728,13 @@ gap:60px;
 
 .ilustracion-tattoo-img{
 
-width:260px;
+width:300px;
 
 /* AJUSTE MANUAL MOBILE */
 
 transform:
 translateX(0px)
-translateY(0px);
+translateY(-200px);
 
 }
 
