@@ -1289,9 +1289,6 @@ aspect-ratio:9/16;
 
 padding-top:140px;
 
-/* NUEVO */
-padding-bottom:420px;
-
 position:relative;
 
 }
@@ -1358,7 +1355,7 @@ width:60px;
 
 transform:
 translateX(0px)
-translateY(0px);
+translateY(-510px);
 
 }
 
@@ -1436,10 +1433,14 @@ min-height:auto;
 
 padding:160px 20px 120px 20px;
 
-margin-top:250px;
+/* posición base */
+margin-top:0;
+
+/* AJUSTE MANUAL */
+transform:translateY(220px);
 
 }
-
+   
 /* CONTENEDOR */
 
 .ilustracion-container{
