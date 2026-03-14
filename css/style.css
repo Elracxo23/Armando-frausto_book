@@ -1279,7 +1279,7 @@ margin:auto;
 ========================= */
 
 .motion{
-
+    
 background-image:url("../img/fondovideo_mobile.png");
 background-size:100% auto;
 background-position:center top;
@@ -1288,6 +1288,9 @@ background-repeat:no-repeat;
 aspect-ratio:9/16;
 
 padding-top:140px;
+
+/* NUEVO */
+padding-bottom:420px;
 
 position:relative;
 
@@ -1338,7 +1341,7 @@ width:130px;
 
 transform:
 translateX(0px)
-translateY(0px);
+translateY(-450px);
 
 }
 
@@ -1412,7 +1415,7 @@ width:110px;
 
 transform:
 translateX(0px)
-translateY(0px);
+translateY(120px);
 
 
 
