@@ -1278,17 +1278,18 @@ margin:auto;
 
 .motion{
 
+position:relative;
+
+overflow:hidden; /* evita que Safari muestre el borde */
+
 background-image:url("../img/fondovideo_mobile.png");
-background-size:100% auto;
+background-size:cover;   /* más estable que 100% auto */
 background-position:center top;
 background-repeat:no-repeat;
 
-/* CAMBIAR ESTO */
 min-height:900px;
 
 padding-top:140px;
-
-position:relative;
 
 }
 
@@ -1350,11 +1351,11 @@ position:absolute;
 top:14%;
 left:20px;
 
-width:70px;
+width:65px;
 
 transform:
 translateX(0px)
-translateY(-110px);
+translateY(-115px);
 
 }
 
@@ -1394,7 +1395,7 @@ left:50%;
 
 transform:
 translateX(-50%)
-translateY(-80px);
+translateY(-90px);
 
 width:85%;
 max-width:300px;
@@ -1415,7 +1416,7 @@ width:110px;
 
 transform:
 translateX(0px)
-translateY(120px);
+translateY(115px);
 
 
 
@@ -1433,7 +1434,7 @@ min-height:auto;
 padding:160px 20px 120px 20px;
 
 /* posición base */
-margin-top:0;
+margin-top:-2px;
 
 /* AJUSTE MANUAL */
 transform:translateY(220px);
