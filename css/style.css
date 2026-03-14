@@ -1317,7 +1317,7 @@ left:50%;
 
 transform:
 translateX(-50%)
-translateY(-340px);
+translateY(40px);
 
 width:85%;
 max-width:300px;
@@ -1337,7 +1337,7 @@ width:130px;
 
 transform:
 translateX(0px)
-translateY(-450px);
+translateY(-70px);
 
 }
 
@@ -1350,11 +1350,11 @@ position:absolute;
 top:14%;
 left:20px;
 
-width:60px;
+width:70px;
 
 transform:
 translateX(0px)
-translateY(-510px);
+translateY(-110px);
 
 }
 
