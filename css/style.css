@@ -1006,7 +1006,7 @@ max-width:100%;
 
 /* AJUSTE MANUAL DEL ARTE */
 transform:
-translateX(0px)
+translateX(-500px)
 translateY(0px);
 
 }
@@ -1019,6 +1019,10 @@ align-items:center;
 text-align:center;
 
 color:black;
+
+transform:
+translateX(500px)
+translateY(-150px);
 
 }
 
@@ -1617,7 +1621,7 @@ width:260px;
 /* AJUSTE MANUAL MOBILE */
 transform:
 translateX(0px)
-translateY(0px);
+translateY(-200px);
 
 }
 
@@ -1625,12 +1629,15 @@ translateY(0px);
 
 .ilustracion-mural .ilustracion-texto{
 
-padding:0 20px;
-
+align-items:center;
 text-align:center;
 
-}
+color:black;
+transform:
+translateX(0px)
+translateY(10px);
 
+}
 .ilustracion-mural .titulo-proyecto{
 
 font-size:38px;
