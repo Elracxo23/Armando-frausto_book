@@ -1033,6 +1033,70 @@ color:black;
 }
 
 /* =========================
+   ILUSTRACION TATTOO
+========================= */
+
+.ilustracion-tattoo{
+
+background-image:url("../img/fondo_ilustracion_3.png");
+
+}
+
+/* CONTENEDOR */
+
+.ilustracion-tattoo .ilustracion-container{
+
+display:grid;
+
+grid-template-columns:1fr 1.2fr;
+
+align-items:center;
+
+gap:40px;
+
+}
+
+/* TEXTO */
+
+.ilustracion-tattoo .ilustracion-texto{
+
+color:white;
+
+align-items:center;
+text-align:center;
+
+/* AJUSTE MANUAL DEL TEXTO */
+
+transform:
+translateX(0px)
+translateY(0px);
+
+}
+
+/* TITULO */
+
+.ilustracion-tattoo .titulo-proyecto{
+
+color:white;
+
+}
+
+/* IMAGEN */
+
+.ilustracion-tattoo-img{
+
+width:520px;
+max-width:100%;
+
+/* AJUSTE MANUAL DEL ARTE */
+
+transform:
+translateX(0px)
+translateY(0px);
+
+}
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -1641,5 +1705,51 @@ translateY(10px);
 .ilustracion-mural .titulo-proyecto{
 
 font-size:38px;
+
+}
+
+/* =========================
+   ILUSTRACION TATTOO MOBILE
+========================= */
+
+.ilustracion-tattoo .ilustracion-container{
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+gap:60px;
+
+}
+
+/* ARTE */
+
+.ilustracion-tattoo-img{
+
+width:260px;
+
+/* AJUSTE MANUAL MOBILE */
+
+transform:
+translateX(0px)
+translateY(0px);
+
+}
+
+/* TEXTO */
+
+.ilustracion-tattoo .ilustracion-texto{
+
+padding:0 20px;
+
+text-align:center;
+
+/* AJUSTE MANUAL MOBILE */
+
+transform:
+translateX(0px)
+translateY(0px);
 
 }
