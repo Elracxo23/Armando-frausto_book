@@ -672,19 +672,17 @@ text-align:center;
 
 .motion{
 
-position:relative;
-
-width:100%;
-min-height:100vh;
-
-background-image:url("../img/fondo_motion.png");
-background-size:cover;
-background-position:center;
+background-image:url("../img/fondovideo_mobile.png");
+background-size:100% auto;
+background-position:center top;
 background-repeat:no-repeat;
 
-display:flex;
-align-items:center;
-justify-content:center;
+/* CAMBIAR ESTO */
+min-height:900px;
+
+padding-top:140px;
+
+position:relative;
 
 }
 
