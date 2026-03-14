@@ -1097,6 +1097,79 @@ translateY(-200px);
 }
 
 /* =========================
+   SECCION PRESENTACIONES
+========================= */
+
+.presentaciones{
+
+position:relative;
+
+width:100%;
+min-height:100vh;
+
+background-image:url("../img/fondopresentaciones.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+padding:120px 40px;
+
+}
+
+/* ICONO */
+
+.icono-presentaciones{
+
+position:absolute;
+
+top:60px;
+left:60px;
+
+width:100px;
+
+z-index:5;
+
+/* AJUSTE MANUAL */
+
+transform:
+translateX(0px)
+translateY(0px);
+
+}
+
+/* CONTENEDOR */
+
+.presentaciones-container{
+
+width:100%;
+
+display:flex;
+justify-content:flex-end;
+
+max-width:1200px;
+
+}
+
+/* PNG TEXTO */
+
+.presentaciones-texto{
+
+width:380px;
+max-width:100%;
+
+/* AJUSTE MANUAL */
+
+transform:
+translateX(0px)
+translateY(0px);
+
+}
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -1745,6 +1818,55 @@ translateY(-200px);
 padding:0 20px;
 
 text-align:center;
+
+/* AJUSTE MANUAL MOBILE */
+
+transform:
+translateX(0px)
+translateY(0px);
+
+}
+
+/* =========================
+   PRESENTACIONES MOBILE
+========================= */
+
+.presentaciones{
+
+padding:160px 20px 120px 20px;
+
+min-height:auto;
+
+}
+
+/* ICONO */
+
+.icono-presentaciones{
+
+top:40px;
+left:25px;
+
+width:80px;
+
+transform:
+translateX(0px)
+translateY(0px);
+
+}
+
+/* CONTENEDOR */
+
+.presentaciones-container{
+
+justify-content:center;
+
+}
+
+/* TEXTO */
+
+.presentaciones-texto{
+
+width:240px;
 
 /* AJUSTE MANUAL MOBILE */
 
