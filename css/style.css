@@ -1283,7 +1283,7 @@ position:relative;
 overflow:hidden; /* evita que Safari muestre el borde */
 
 background-image:url("../img/fondovideo_mobile.png");
-background-size:cover;   /* más estable que 100% auto */
+background-size:100% auto;
 background-position:center top;
 background-repeat:no-repeat;
 
