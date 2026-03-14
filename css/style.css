@@ -975,6 +975,60 @@ line-height:1.6;
 }
 
 /* =========================
+   ILUSTRACION MURAL
+========================= */
+
+.ilustracion-mural{
+
+background-image:url("../img/fondo_ilustracion_2.png");
+
+}
+
+/* CONTENEDOR */
+
+.ilustracion-mural .ilustracion-container{
+
+display:grid;
+grid-template-columns:1.2fr 1fr;
+
+align-items:center;
+
+gap:40px;
+
+}
+
+/* IMAGEN */
+
+.ilustracion-mural-img{
+
+width:520px;
+max-width:100%;
+
+/* AJUSTE MANUAL DEL ARTE */
+transform:
+translateX(0px)
+translateY(0px);
+
+}
+
+/* TEXTO */
+
+.ilustracion-mural .ilustracion-texto{
+
+align-items:center;
+text-align:center;
+
+color:black;
+
+}
+
+.ilustracion-mural .titulo-proyecto{
+
+color:black;
+
+}
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -1436,7 +1490,7 @@ min-height:auto;
 padding:160px 20px 120px 20px;
 
 /* posición base */
-margin-top:-15px;
+margin-top:-25px;
 
 /* AJUSTE MANUAL */
 transform:translateY(220px);
@@ -1536,5 +1590,49 @@ left:25px;
 width:80px;
 
 transform:translateX(0px) translateY(0px);
+
+}
+
+/* =========================
+   ILUSTRACION MURAL MOBILE
+========================= */
+
+.ilustracion-mural .ilustracion-container{
+
+display:flex;
+flex-direction:column;
+
+align-items:center;
+
+gap:60px;
+
+}
+
+/* IMAGEN */
+
+.ilustracion-mural-img{
+
+width:260px;
+
+/* AJUSTE MANUAL MOBILE */
+transform:
+translateX(0px)
+translateY(0px);
+
+}
+
+/* TEXTO */
+
+.ilustracion-mural .ilustracion-texto{
+
+padding:0 20px;
+
+text-align:center;
+
+}
+
+.ilustracion-mural .titulo-proyecto{
+
+font-size:38px;
 
 }
