@@ -1165,7 +1165,7 @@ max-width:100%;
 
 transform:
 translateX(0px)
-translateY(0px);
+translateY(-280px);
 
 }
 
@@ -1871,7 +1871,7 @@ width:240px;
 /* AJUSTE MANUAL MOBILE */
 
 transform:
-translateX(0px)
-translateY(0px);
+translateX(95px)
+translateY(-150px);
 
 }
